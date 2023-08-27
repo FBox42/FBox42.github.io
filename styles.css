@@ -25,6 +25,28 @@ table {
     display: revert;
 }
 
+.slider-labels .tick {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.slider-labels .tick::before {
+    content: '';
+    position: absolute;
+    top: -60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 12px;
+    background-color: black;
+    z-index: -1;
+}
+
+.headerHome{
+    font-size: 30px;
+    font-family: "Storybook";
+}
 
 #newGameButton{
 margin: inherit;
@@ -53,7 +75,6 @@ height: 70px;
 
 .final-score {
     font-size: xxx-large;
-    /* Adjust font size as needed */
     margin-top: 20px;
     margin-bottom: 40px;
     font-family: 'Storybook';
@@ -76,29 +97,25 @@ tr:first-child {
     border-bottom: 3px solid black;
 }
 
-/* Style for the slider container */
 .slider-container {
     text-align: center;
     margin-top: 5px;
-    position: relative; /* Add this property */
+    position: relative; 
   }
   
-  /* Style for the labels list */
   .slider-labels {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-inline-start: 0px;
-    width: 92.2%;
+    padding-inline-start: 5%;
+    width: 82%;
     text-align: center;
-    margin-inline-start: 3.9%;
     font-weight: bolder;
     font-size: larger;
-    position: absolute;
     top: 12%;
+    margin-left: 4%;
   }
   
-  /* Style for each label item */
   .slider-labels li {
     flex: 1;
     text-align: center;
@@ -106,7 +123,6 @@ tr:first-child {
     position: relative;
   }
   
-  /* Style for the tick lines */
   .slider-labels li::before {
     content: '';
     position: absolute;
@@ -126,6 +142,16 @@ body {
     padding: 0;
 }
 
+.homepageIntro{
+
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 3%;
+}
+
 #yearSlider {
     -webkit-appearance: none;
     width: 80%;
@@ -140,7 +166,7 @@ body {
   #yearSlider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 20px;
+    width: 28px;
     height: 20px;
     background: #22378a;
     cursor: pointer;
@@ -154,20 +180,23 @@ body {
   }
 
   #yearSlider:disabled::-webkit-slider-thumb {
-    background: grey; /* Change the knob color to grey when slider is disabled */
+    background: grey; 
   }
   
   #yearSlider:disabled::-moz-range-thumb {
-    background: grey; /* Change the knob color to grey when slider is disabled */
+    background: grey; 
   }
+
+
 
 
 
 #selectedYear {
-    font-size: 24px;
-    margin-top: 60px;
+    font-size: 28px;
+    margin-top: 40px;
     margin-bottom: 25px;
 }
+
 
 iframe#random-iframe {
     height: 100px;
@@ -180,17 +209,13 @@ iframe#random-iframe {
 
 #showDisplay a {
     color: black;
-    /* Change link color to blue */
     text-decoration: underline;
     font-size: larger;
-    /* Underline the link */
 }
 
 #trackDisplay {
     color: black;
-    /* Change link color to blue */
     font-size: 23px;
-    /* Underline the link */
 }
 
 #userGuess {
@@ -256,49 +281,42 @@ iframe#random-iframe {
     padding: 20px 10px;
 }
 
-/* Style the header links */
 .header a {
     float: left;
     color: white;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    font-size: 8px;
     line-height: 12px;
     border-radius: 4px;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.title {
     font-size: 30px;
     font-family: 'Storybook', sans-serif;
 }
 
-/* Change the background color on mouse-over */
 .header a:hover {
     text-decoration: underline;
 }
 
 
-/* Float the link section to the right */
 .header-right {
     float: right;
 }
 
 
-
 .playButton {
     padding: 10px 20px;
-    /* Adjust padding for desired size */
-    height: 300px;
-    width: 400px;
+    height: 175px;
+    width: 300px;
     font-size: 16px;
-    /* Adjust font size for desired size */
-    background-color: #3498db;
+    background-color: #22378a;
     color: #ffffff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Storybook', sans-serif;
-
+    font-size: 30px;
+    margin-top: 100px;
 }
