@@ -21995,7 +21995,7 @@
         "showYear": 1980,
         "showExtension": "gd1980-01-13.sbd.miller.106517.flac16",
         "audioType": "flac",
-        "numberOfTracks": 12,
+        "numberOfTracks": 10,
         "tracks": [
             {
                 "trackName": "Jack Straw ->",
@@ -22046,16 +22046,6 @@
                 "trackName": "U.S. Blues",
                 "trackExtension": "gd80-01-13d2t05",
                 "trackDuration": 383
-            },
-            {
-                "trackName": "Land Of A Thousand Dances",
-                "trackExtension": "gd80-01-13d2t06",
-                "trackDuration": 267
-            },
-            {
-                "trackName": "Amazing Grace",
-                "trackExtension": "gd80-01-13d2t07",
-                "trackDuration": 333
             }
         ]
     },
@@ -32375,7 +32365,7 @@
         "showYear": 1986,
         "showExtension": "gd86-12-30.sbd.barbella.6025.sbeok.shnf",
         "audioType": "shn",
-        "numberOfTracks": 23,
+        "numberOfTracks": 22,
         "tracks": [
             {
                 "trackName": "Hell in a Bucket",
@@ -32456,11 +32446,6 @@
                 "trackName": "Eyes of the World",
                 "trackExtension": "gd86-12-30d2t06",
                 "trackDuration": 497
-            },
-            {
-                "trackName": "Ollin Arrageed",
-                "trackExtension": "gd86-12-30d2t08",
-                "trackDuration": 422
             },
             {
                 "trackName": "Iko Iko",
@@ -33021,151 +33006,6 @@
                 "trackName": "Brokedown Palace",
                 "trackExtension": "gd86-07-06d2t09",
                 "trackDuration": 321
-            }
-        ]
-    },
-    {
-        "showName": "Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-12",
-        "showDate": "1986-02-12",
-        "showYear": 1986,
-        "showExtension": "gd86-02-12.beyer.connor.3302.sbeok.shnf",
-        "audioType": "shn",
-        "numberOfTracks": 27,
-        "tracks": [
-            {
-                "trackName": "Hell In A Bucket >",
-                "trackExtension": "gd86-02-12d2t02",
-                "trackDuration": 359
-            },
-            {
-                "trackName": "Sugaree",
-                "trackExtension": "gd86-02-12d2t03",
-                "trackDuration": 529
-            },
-            {
-                "trackName": "Tons Of Steel",
-                "trackExtension": "gd86-02-12d2t04",
-                "trackDuration": 324
-            },
-            {
-                "trackName": "Tennessee Jed",
-                "trackExtension": "gd86-02-12d2t05",
-                "trackDuration": 462
-            },
-            {
-                "trackName": "Cassidy >",
-                "trackExtension": "gd86-02-12d2t07",
-                "trackDuration": 355
-            },
-            {
-                "trackName": "Don't Ease Me In",
-                "trackExtension": "gd86-02-12d2t08",
-                "trackDuration": 203
-            },
-            {
-                "trackName": "Scarlet Begonias >",
-                "trackExtension": "gd86-02-12d3t01",
-                "trackDuration": 419
-            },
-            {
-                "trackName": "Fire On The Mountain >",
-                "trackExtension": "gd86-02-12d3t02",
-                "trackDuration": 555
-            },
-            {
-                "trackName": "Estimated Prophet >",
-                "trackExtension": "gd86-02-12d3t03",
-                "trackDuration": 923
-            },
-            {
-                "trackName": "Mardi Gras Festival Jam>",
-                "trackExtension": "gd86-02-12d3t05",
-                "trackDuration": 457
-            },
-            {
-                "trackName": "Willy And The Hand Jive>",
-                "trackExtension": "gd86-02-12d3t06",
-                "trackDuration": 389
-            },
-            {
-                "trackName": "The Wheel >",
-                "trackExtension": "gd86-02-12d3t07",
-                "trackDuration": 299
-            },
-            {
-                "trackName": "Midnight Hour >",
-                "trackExtension": "gd86-02-12d3t08",
-                "trackDuration": 315
-            },
-            {
-                "trackName": "Johnny B. Goode",
-                "trackExtension": "gd86-02-12d3t09",
-                "trackDuration": 282
-            },
-            {
-                "trackName": "U.S. Blues",
-                "trackExtension": "gd86-02-12d3t10",
-                "trackDuration": 322
-            },
-            {
-                "trackName": "Fire On The Bayou",
-                "trackExtension": "nb86-02-12d1t01",
-                "trackDuration": 437
-            },
-            {
-                "trackName": "Africa",
-                "trackExtension": "nb86-02-12d1t02",
-                "trackDuration": 318
-            },
-            {
-                "trackName": "Run JOe",
-                "trackExtension": "nb86-02-12d1t03",
-                "trackDuration": 228
-            },
-            {
-                "trackName": "People Say ?",
-                "trackExtension": "nb86-02-12d1t04",
-                "trackDuration": 383
-            },
-            {
-                "trackName": "Caravan",
-                "trackExtension": "nb86-02-12d1t05",
-                "trackDuration": 343
-            },
-            {
-                "trackName": "Sitting In Limbo",
-                "trackExtension": "nb86-02-12d1t06",
-                "trackDuration": 243
-            },
-            {
-                "trackName": "Fear, Hate, Envy, Jealousy",
-                "trackExtension": "nb86-02-12d1t07",
-                "trackDuration": 318
-            },
-            {
-                "trackName": "Got To Have Mardi Gras?>",
-                "trackExtension": "nb86-02-12d1t08",
-                "trackDuration": 261
-            },
-            {
-                "trackName": "New Suit?",
-                "trackExtension": "nb86-02-12d1t09",
-                "trackDuration": 224
-            },
-            {
-                "trackName": "Big Chief >",
-                "trackExtension": "nb86-02-12d1t10",
-                "trackDuration": 269
-            },
-            {
-                "trackName": "Peace Pipe?",
-                "trackExtension": "nb86-02-12d1t11",
-                "trackDuration": 188
-            },
-            {
-                "trackName": "Hey Pocky Way",
-                "trackExtension": "nb86-02-12d1t12",
-                "trackDuration": 296
             }
         ]
     },
@@ -36035,7 +35875,7 @@
         "showYear": 1988,
         "showExtension": "gd1988-06-30.sbd.miller.96071.sbeok.flac16",
         "audioType": "flac",
-        "numberOfTracks": 21,
+        "numberOfTracks": 20,
         "tracks": [
             {
                 "trackName": "Box Of Rain",
@@ -36081,11 +35921,6 @@
                 "trackName": "Don't Ease Me In",
                 "trackExtension": "gd88-06-30d1t09",
                 "trackDuration": 224
-            },
-            {
-                "trackName": "Green Onions ->",
-                "trackExtension": "gd88-06-30d2t01",
-                "trackDuration": 156
             },
             {
                 "trackName": "China Cat Sunflower ->",
@@ -37040,7 +36875,7 @@
         "showYear": 1988,
         "showExtension": "gd1988-09-24.133967.upd-sbd.tobin.flac16",
         "audioType": "flac",
-        "numberOfTracks": 19,
+        "numberOfTracks": 18,
         "tracks": [
             {
                 "trackName": "Iko Iko",
@@ -37086,11 +36921,6 @@
                 "trackName": "Chinese Bones",
                 "trackExtension": "gd1988-09-24d2t01",
                 "trackDuration": 429
-            },
-            {
-                "trackName": "Neighborhood Girls",
-                "trackExtension": "gd1988-09-24d2t02",
-                "trackDuration": 286
             },
             {
                 "trackName": "Crazy Fingers",
@@ -44275,7 +44105,7 @@
         "showYear": 1993,
         "showExtension": "gd1993-03-11.sbd.miller.120726.flac16",
         "audioType": "flac",
-        "numberOfTracks": 18,
+        "numberOfTracks": 17,
         "tracks": [
             {
                 "trackName": "Help On The Way ->",
@@ -44341,11 +44171,6 @@
                 "trackName": "He's Gone ->",
                 "trackExtension": "gd93-03-11d2t05",
                 "trackDuration": 866
-            },
-            {
-                "trackName": "Flibberty Jib On The Bippity Bop ->",
-                "trackExtension": "gd93-03-11d3t01",
-                "trackDuration": 278
             },
             {
                 "trackName": "The Other One ->",
@@ -45626,6 +45451,2526 @@
                 "trackName": "I Fought The Law",
                 "trackExtension": "gd93-03-27d3t06",
                 "trackDuration": 162
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Boston Garden on 1994-10-01",
+        "showDate": "1994-10-01",
+        "showYear": 1994,
+        "showExtension": "gd1994-10-01.mtx.seamons.95066.sbeok.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 19,
+        "tracks": [
+            {
+                "trackName": "Help On The Way ->",
+                "trackExtension": "gd94-10-01d1t01",
+                "trackDuration": 231
+            },
+            {
+                "trackName": "Slipknot! ->",
+                "trackExtension": "gd94-10-01d1t02",
+                "trackDuration": 324
+            },
+            {
+                "trackName": "Franklin's Tower",
+                "trackExtension": "gd94-10-01d1t03",
+                "trackDuration": 739
+            },
+            {
+                "trackName": "Walkin' Blues",
+                "trackExtension": "gd94-10-01d1t04",
+                "trackDuration": 350
+            },
+            {
+                "trackName": "Althea",
+                "trackExtension": "gd94-10-01d1t05",
+                "trackDuration": 642
+            },
+            {
+                "trackName": "Me and My Uncle* ->",
+                "trackExtension": "gd94-10-01d1t06",
+                "trackDuration": 167
+            },
+            {
+                "trackName": "Big River*",
+                "trackExtension": "gd94-10-01d1t07",
+                "trackDuration": 447
+            },
+            {
+                "trackName": "Just Like Tom Thumb's Blues",
+                "trackExtension": "gd94-10-01d1t08",
+                "trackDuration": 432
+            },
+            {
+                "trackName": "So Many Roads ->",
+                "trackExtension": "gd94-10-01d1t09",
+                "trackDuration": 437
+            },
+            {
+                "trackName": "Promised Land",
+                "trackExtension": "gd94-10-01d1t10",
+                "trackDuration": 296
+            },
+            {
+                "trackName": "Scarlet Begonias ->",
+                "trackExtension": "gd94-10-01d2t01",
+                "trackDuration": 704
+            },
+            {
+                "trackName": "Fire On The Mountain",
+                "trackExtension": "gd94-10-01d2t02",
+                "trackDuration": 1004
+            },
+            {
+                "trackName": "Way To Go Home",
+                "trackExtension": "gd94-10-01d2t03",
+                "trackDuration": 408
+            },
+            {
+                "trackName": "Saint of Circumstance ->",
+                "trackExtension": "gd94-10-01d2t04",
+                "trackDuration": 468
+            },
+            {
+                "trackName": "Terrapin Station ->",
+                "trackExtension": "gd94-10-01d2t05",
+                "trackDuration": 982
+            },
+            {
+                "trackName": "The Last Time ->",
+                "trackExtension": "gd94-10-01d3t02",
+                "trackDuration": 361
+            },
+            {
+                "trackName": "Stella Blue ->",
+                "trackExtension": "gd94-10-01d3t03",
+                "trackDuration": 680
+            },
+            {
+                "trackName": "One More Saturday Night",
+                "trackExtension": "gd94-10-01d3t04",
+                "trackDuration": 316
+            },
+            {
+                "trackName": "Liberty",
+                "trackExtension": "gd94-10-01d3t05",
+                "trackDuration": 508
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Blockbuster Desert Sky Pavillion on 1994-03-04",
+        "showDate": "1994-03-04",
+        "showYear": 1994,
+        "showExtension": "gd1994-03-04.sbd.sailor_saint.33697.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 15,
+        "tracks": [
+            {
+                "trackName": "Mississippi Half Step",
+                "trackExtension": "gd1994-03-04d1t02",
+                "trackDuration": 578
+            },
+            {
+                "trackName": "Little Red Rooster",
+                "trackExtension": "gd1994-03-04d1t03",
+                "trackDuration": 501
+            },
+            {
+                "trackName": "Ramble On Rose",
+                "trackExtension": "gd1994-03-04d1t05",
+                "trackDuration": 387
+            },
+            {
+                "trackName": "Me And My Uncle",
+                "trackExtension": "gd1994-03-04d1t07",
+                "trackDuration": 164
+            },
+            {
+                "trackName": "Big River",
+                "trackExtension": "gd1994-03-04d1t08",
+                "trackDuration": 268
+            },
+            {
+                "trackName": "Bird Song",
+                "trackExtension": "gd1994-03-04d1t10",
+                "trackDuration": 636
+            },
+            {
+                "trackName": "Promised Land",
+                "trackExtension": "gd1994-03-04d1t11",
+                "trackDuration": 281
+            },
+            {
+                "trackName": "Iko Iko",
+                "trackExtension": "gd1994-03-04d1t12",
+                "trackDuration": 551
+            },
+            {
+                "trackName": "Looks Like Rain",
+                "trackExtension": "gd1994-03-04d1t13",
+                "trackDuration": 508
+            },
+            {
+                "trackName": "Crazy Fingers",
+                "trackExtension": "gd1994-03-04d2t02",
+                "trackDuration": 565
+            },
+            {
+                "trackName": "Estimated Prophet -->",
+                "trackExtension": "gd1994-03-04d2t03",
+                "trackDuration": 847
+            },
+            {
+                "trackName": "I Need A Miracle -->",
+                "trackExtension": "gd1994-03-04d2t07",
+                "trackDuration": 266
+            },
+            {
+                "trackName": "Black Peter -->",
+                "trackExtension": "gd1994-03-04d2t08",
+                "trackDuration": 501
+            },
+            {
+                "trackName": "Throwin' Stones",
+                "trackExtension": "gd1994-03-04d2t09",
+                "trackDuration": 560
+            },
+            {
+                "trackName": "US Blues",
+                "trackExtension": "gd1994-03-04d2t11",
+                "trackDuration": 327
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Madison Square Garden on 1994-10-14",
+        "showDate": "1994-10-14",
+        "showYear": 1994,
+        "showExtension": "gd1994-10-14.sbd.miller.79167.sbeok.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Jack Straw ->",
+                "trackExtension": "gd94-10-14d1t01",
+                "trackDuration": 370
+            },
+            {
+                "trackName": "West L.A. Fadeaway",
+                "trackExtension": "gd94-10-14d1t02",
+                "trackDuration": 513
+            },
+            {
+                "trackName": "Queen Jane Approximately",
+                "trackExtension": "gd94-10-14d1t03",
+                "trackDuration": 391
+            },
+            {
+                "trackName": "Lazy River Road",
+                "trackExtension": "gd94-10-14d1t04",
+                "trackDuration": 441
+            },
+            {
+                "trackName": "El Paso",
+                "trackExtension": "gd94-10-14d1t05",
+                "trackDuration": 388
+            },
+            {
+                "trackName": "Ramble On Rose",
+                "trackExtension": "gd94-10-14d1t06",
+                "trackDuration": 574
+            },
+            {
+                "trackName": "Box Of Rain",
+                "trackExtension": "gd94-10-14d1t07",
+                "trackDuration": 317
+            },
+            {
+                "trackName": "Scarlet Begonias ->",
+                "trackExtension": "gd94-10-14d2t01",
+                "trackDuration": 564
+            },
+            {
+                "trackName": "Fire On The Mountain",
+                "trackExtension": "gd94-10-14d2t02",
+                "trackDuration": 1407
+            },
+            {
+                "trackName": "Looks Like Rain",
+                "trackExtension": "gd94-10-14d2t03",
+                "trackDuration": 528
+            },
+            {
+                "trackName": "Samba In The Rain",
+                "trackExtension": "gd94-10-14d2t04",
+                "trackDuration": 426
+            },
+            {
+                "trackName": "Corrina ->",
+                "trackExtension": "gd94-10-14d3t01",
+                "trackDuration": 1036
+            },
+            {
+                "trackName": "I Need A Miracle ->",
+                "trackExtension": "gd94-10-14d3t04",
+                "trackDuration": 329
+            },
+            {
+                "trackName": "Attics Of My Life ->",
+                "trackExtension": "gd94-10-14d3t05",
+                "trackDuration": 310
+            },
+            {
+                "trackName": "Turn On Your Lovelight",
+                "trackExtension": "gd94-10-14d3t06",
+                "trackDuration": 393
+            },
+            {
+                "trackName": "Liberty",
+                "trackExtension": "gd94-10-14d3t07",
+                "trackDuration": 375
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Autzen Stadium - University of Oregon on 1994-06-19",
+        "showDate": "1994-06-19",
+        "showYear": 1994,
+        "showExtension": "gd1994-06-19.sbd.tetzeli-fix.82053.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Touch Of Grey",
+                "trackExtension": "gd94-06-19d1t01",
+                "trackDuration": 412
+            },
+            {
+                "trackName": "Walkin' Blues",
+                "trackExtension": "gd94-06-19d1t02",
+                "trackDuration": 393
+            },
+            {
+                "trackName": "Brown-Eyed Women",
+                "trackExtension": "gd94-06-19d1t03",
+                "trackDuration": 455
+            },
+            {
+                "trackName": "El Paso",
+                "trackExtension": "gd94-06-19d1t04",
+                "trackDuration": 389
+            },
+            {
+                "trackName": "If The Shoe Fits",
+                "trackExtension": "gd94-06-19d1t05",
+                "trackDuration": 387
+            },
+            {
+                "trackName": "Bird Song",
+                "trackExtension": "gd94-06-19d1t06",
+                "trackDuration": 894
+            },
+            {
+                "trackName": "Scarlet Begonias",
+                "trackExtension": "gd94-06-19d2t01",
+                "trackDuration": 437
+            },
+            {
+                "trackName": "Fire On The Mountain",
+                "trackExtension": "gd94-06-19d2t02",
+                "trackDuration": 1379
+            },
+            {
+                "trackName": "Samson & Delilah",
+                "trackExtension": "gd94-06-19d2t03",
+                "trackDuration": 543
+            },
+            {
+                "trackName": "Long Way To Go Home",
+                "trackExtension": "gd94-06-19d2t04",
+                "trackDuration": 395
+            },
+            {
+                "trackName": "Playin in the Band",
+                "trackExtension": "gd94-06-19d2t05",
+                "trackDuration": 557
+            },
+            {
+                "trackName": "Uncle John's Band ->",
+                "trackExtension": "gd94-06-19d2t06",
+                "trackDuration": 711
+            },
+            {
+                "trackName": "The Other One ->",
+                "trackExtension": "gd94-06-19d3t03",
+                "trackDuration": 704
+            },
+            {
+                "trackName": "Wharf Rat ->",
+                "trackExtension": "gd94-06-19d3t04",
+                "trackDuration": 648
+            },
+            {
+                "trackName": "Good Lovin'",
+                "trackExtension": "gd94-06-19d3t05",
+                "trackDuration": 361
+            },
+            {
+                "trackName": "Knockin' on Heaven's Door",
+                "trackExtension": "gd94-06-19d3t07",
+                "trackDuration": 486
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Madison Square Garden on 1994-10-18",
+        "showDate": "1994-10-18",
+        "showYear": 1994,
+        "showExtension": "gd1994-10-18.sbd.miller.119523.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 17,
+        "tracks": [
+            {
+                "trackName": "Help On The Way ->",
+                "trackExtension": "gd94-10-18d1t01",
+                "trackDuration": 240
+            },
+            {
+                "trackName": "Slipknot! ->",
+                "trackExtension": "gd94-10-18d1t02",
+                "trackDuration": 336
+            },
+            {
+                "trackName": "Franklin's Tower",
+                "trackExtension": "gd94-10-18d1t03",
+                "trackDuration": 796
+            },
+            {
+                "trackName": "The Same Thing",
+                "trackExtension": "gd94-10-18d1t04",
+                "trackDuration": 428
+            },
+            {
+                "trackName": "Althea",
+                "trackExtension": "gd94-10-18d1t05",
+                "trackDuration": 593
+            },
+            {
+                "trackName": "Cassidy",
+                "trackExtension": "gd94-10-18d1t06",
+                "trackDuration": 412
+            },
+            {
+                "trackName": "Childhood's End ->",
+                "trackExtension": "gd94-10-18d1t07",
+                "trackDuration": 251
+            },
+            {
+                "trackName": "Don't Ease Me In",
+                "trackExtension": "gd94-10-18d1t08",
+                "trackDuration": 183
+            },
+            {
+                "trackName": "Iko Iko",
+                "trackExtension": "gd94-10-18d2t01",
+                "trackDuration": 679
+            },
+            {
+                "trackName": "Samba In The Rain",
+                "trackExtension": "gd94-10-18d2t02",
+                "trackDuration": 441
+            },
+            {
+                "trackName": "He's Gone ->",
+                "trackExtension": "gd94-10-18d2t03",
+                "trackDuration": 587
+            },
+            {
+                "trackName": "Smokestack Lightning ->",
+                "trackExtension": "gd94-10-18d2t04",
+                "trackDuration": 214
+            },
+            {
+                "trackName": "Truckin' ->",
+                "trackExtension": "gd94-10-18d2t05",
+                "trackDuration": 628
+            },
+            {
+                "trackName": "Days Between ->",
+                "trackExtension": "gd94-10-18d3t02",
+                "trackDuration": 781
+            },
+            {
+                "trackName": "Throwing Stones ->",
+                "trackExtension": "gd94-10-18d3t03",
+                "trackDuration": 522
+            },
+            {
+                "trackName": "Not Fade Away",
+                "trackExtension": "gd94-10-18d3t04",
+                "trackDuration": 449
+            },
+            {
+                "trackName": "U.S. Blues",
+                "trackExtension": "gd94-10-18d3t05",
+                "trackDuration": 287
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Rosemont Horizon Arena on 1994-03-18",
+        "showDate": "1994-03-18",
+        "showYear": 1994,
+        "showExtension": "gd1994-03-18.sbd.miller.79117.sbeok.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 15,
+        "tracks": [
+            {
+                "trackName": "Feel Like A Stranger",
+                "trackExtension": "gd94-03-18d1t02",
+                "trackDuration": 553
+            },
+            {
+                "trackName": "Deal",
+                "trackExtension": "gd94-03-18d1t03",
+                "trackDuration": 627
+            },
+            {
+                "trackName": "El Paso",
+                "trackExtension": "gd94-03-18d1t04",
+                "trackDuration": 323
+            },
+            {
+                "trackName": "Brown Eyed Women",
+                "trackExtension": "gd94-03-18d1t05",
+                "trackDuration": 289
+            },
+            {
+                "trackName": "When I Paint My Masterpiece",
+                "trackExtension": "gd94-03-18d1t06",
+                "trackDuration": 366
+            },
+            {
+                "trackName": "Ramble On Rose",
+                "trackExtension": "gd94-03-18d1t07",
+                "trackDuration": 486
+            },
+            {
+                "trackName": "The Music Never Stopped",
+                "trackExtension": "gd94-03-18d1t08",
+                "trackDuration": 477
+            },
+            {
+                "trackName": "Here Comes Sunshine",
+                "trackExtension": "gd94-03-18d1t10",
+                "trackDuration": 378
+            },
+            {
+                "trackName": "Saint Of Circumstance",
+                "trackExtension": "gd94-03-18d1t11",
+                "trackDuration": 435
+            },
+            {
+                "trackName": "Ship Of Fools",
+                "trackExtension": "gd94-03-18d1t12",
+                "trackDuration": 432
+            },
+            {
+                "trackName": "Corrina ->",
+                "trackExtension": "gd94-03-18d2t01",
+                "trackDuration": 701
+            },
+            {
+                "trackName": "The Other One ->",
+                "trackExtension": "gd94-03-18d2t04",
+                "trackDuration": 619
+            },
+            {
+                "trackName": "Wharf Rat ->",
+                "trackExtension": "gd94-03-18d2t05",
+                "trackDuration": 598
+            },
+            {
+                "trackName": "Around And Around",
+                "trackExtension": "gd94-03-18d2t06",
+                "trackDuration": 435
+            },
+            {
+                "trackName": "U. S. Blues",
+                "trackExtension": "gd94-03-18d2t07",
+                "trackDuration": 317
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1994-02-27",
+        "showDate": "1994-02-27",
+        "showYear": 1994,
+        "showExtension": "gd1994-02-27.sbd.miller.32577.sbeok.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Hell In A Bucket",
+                "trackExtension": "gd94-02-27d1t02",
+                "trackDuration": 468
+            },
+            {
+                "trackName": "Row Jimmy",
+                "trackExtension": "gd94-02-27d1t03",
+                "trackDuration": 722
+            },
+            {
+                "trackName": "New Minglewood Blues",
+                "trackExtension": "gd94-02-27d1t04",
+                "trackDuration": 464
+            },
+            {
+                "trackName": "Lazy River Road",
+                "trackExtension": "gd94-02-27d1t05",
+                "trackDuration": 481
+            },
+            {
+                "trackName": "Mama Tried ->",
+                "trackExtension": "gd94-02-27d1t06",
+                "trackDuration": 155
+            },
+            {
+                "trackName": "Mexicali Blues",
+                "trackExtension": "gd94-02-27d1t07",
+                "trackDuration": 420
+            },
+            {
+                "trackName": "Tennessee Jed",
+                "trackExtension": "gd94-02-27d1t08",
+                "trackDuration": 598
+            },
+            {
+                "trackName": "Easy Answers",
+                "trackExtension": "gd94-02-27d1t09",
+                "trackDuration": 391
+            },
+            {
+                "trackName": "Touch Of Grey ->",
+                "trackExtension": "gd94-02-27d2t01",
+                "trackDuration": 444
+            },
+            {
+                "trackName": "Samson And Delilah",
+                "trackExtension": "gd94-02-27d2t02",
+                "trackDuration": 518
+            },
+            {
+                "trackName": "Uncle John's Band ->",
+                "trackExtension": "gd94-02-27d2t03",
+                "trackDuration": 964
+            },
+            {
+                "trackName": "Corrina ->",
+                "trackExtension": "gd94-02-27d2t04",
+                "trackDuration": 947
+            },
+            {
+                "trackName": "The Other One ->",
+                "trackExtension": "gd94-02-27d3t02",
+                "trackDuration": 458
+            },
+            {
+                "trackName": "Wharf Rat ->",
+                "trackExtension": "gd94-02-27d3t04",
+                "trackDuration": 617
+            },
+            {
+                "trackName": "Turn On Your Lovelight",
+                "trackExtension": "gd94-02-27d3t05",
+                "trackDuration": 432
+            },
+            {
+                "trackName": "Rain",
+                "trackExtension": "gd94-02-27d3t07",
+                "trackDuration": 307
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Blockbuster Desert Sky Pavillion on 1994-03-05",
+        "showDate": "1994-03-05",
+        "showYear": 1994,
+        "showExtension": "gd1994-03-05.sbd.sailor_saint.33585.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Stranger",
+                "trackExtension": "gd1994-03-05d1t02",
+                "trackDuration": 646
+            },
+            {
+                "trackName": "Stagger Lee",
+                "trackExtension": "gd1994-03-05d1t03",
+                "trackDuration": 418
+            },
+            {
+                "trackName": "El Paso (Bob acoustic)",
+                "trackExtension": "gd1994-03-05d1t04",
+                "trackDuration": 308
+            },
+            {
+                "trackName": "Loose Lucy",
+                "trackExtension": "gd1994-03-05d1t05",
+                "trackDuration": 502
+            },
+            {
+                "trackName": "Broken Arrow",
+                "trackExtension": "gd1994-03-05d1t06",
+                "trackDuration": 344
+            },
+            {
+                "trackName": "Eternity",
+                "trackExtension": "gd1994-03-05d1t07",
+                "trackDuration": 632
+            },
+            {
+                "trackName": "Bertha",
+                "trackExtension": "gd1994-03-05d1t08",
+                "trackDuration": 390
+            },
+            {
+                "trackName": "China Cat -->",
+                "trackExtension": "gd1994-03-05d1t10",
+                "trackDuration": 437
+            },
+            {
+                "trackName": "I Know You Rider",
+                "trackExtension": "gd1994-03-05d1t11",
+                "trackDuration": 268
+            },
+            {
+                "trackName": "Way To Go Home",
+                "trackExtension": "gd1994-03-05d1t13",
+                "trackDuration": 387
+            },
+            {
+                "trackName": "Saint of Circumstance -->",
+                "trackExtension": "gd1994-03-05d2t02",
+                "trackDuration": 486
+            },
+            {
+                "trackName": "He's Gone -->",
+                "trackExtension": "gd1994-03-05d2t03",
+                "trackDuration": 815
+            },
+            {
+                "trackName": "All Along the Watchtower -->",
+                "trackExtension": "gd1994-03-05d2t06",
+                "trackDuration": 445
+            },
+            {
+                "trackName": "Stella Blue -->",
+                "trackExtension": "gd1994-03-05d2t07",
+                "trackDuration": 548
+            },
+            {
+                "trackName": "One More Saturday Night",
+                "trackExtension": "gd1994-03-05d2t08",
+                "trackDuration": 297
+            },
+            {
+                "trackName": "E: I Fought the Law",
+                "trackExtension": "gd1994-03-05d2t11",
+                "trackDuration": 181
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at The Omni on 1994-03-31",
+        "showDate": "1994-03-31",
+        "showYear": 1994,
+        "showExtension": "gd94-03-31.sbd.miller.14833.sbeok.shnf",
+        "audioType": "shn",
+        "numberOfTracks": 13,
+        "tracks": [
+            {
+                "trackName": "Touch Of Grey",
+                "trackExtension": "gd94-03-31d1t01",
+                "trackDuration": 477
+            },
+            {
+                "trackName": "I'm A King Bee",
+                "trackExtension": "gd94-03-31d1t02",
+                "trackDuration": 541
+            },
+            {
+                "trackName": "Friend Of The Devil",
+                "trackExtension": "gd94-03-31d1t03",
+                "trackDuration": 560
+            },
+            {
+                "trackName": "Desolation Row",
+                "trackExtension": "gd94-03-31d1t04",
+                "trackDuration": 648
+            },
+            {
+                "trackName": "Tennessee Jed",
+                "trackExtension": "gd94-03-31d1t05",
+                "trackDuration": 531
+            },
+            {
+                "trackName": "Easy Answer",
+                "trackExtension": "gd94-03-31d1t06",
+                "trackDuration": 351
+            },
+            {
+                "trackName": "Eyes Of The World ->",
+                "trackExtension": "gd94-03-31d1t07",
+                "trackDuration": 1157
+            },
+            {
+                "trackName": "Saint Of Circumstance",
+                "trackExtension": "gd94-03-31d1t08",
+                "trackDuration": 495
+            },
+            {
+                "trackName": "Way To Go Home ->",
+                "trackExtension": "gd94-03-31d2t01",
+                "trackDuration": 442
+            },
+            {
+                "trackName": "Crazy Fingers ->",
+                "trackExtension": "gd94-03-31d2t02",
+                "trackDuration": 547
+            },
+            {
+                "trackName": "Corrina ->",
+                "trackExtension": "gd94-03-31d2t03",
+                "trackDuration": 696
+            },
+            {
+                "trackName": "This Could Be The Last Time ->",
+                "trackExtension": "gd94-03-31d2t06",
+                "trackDuration": 439
+            },
+            {
+                "trackName": "Standing On The Moon",
+                "trackExtension": "gd94-03-31d2t07",
+                "trackDuration": 600
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at USAir Arena on 1994-10-09",
+        "showDate": "1994-10-09",
+        "showYear": 1994,
+        "showExtension": "gd1994-10-09.sbd.miller.34562.sbeok.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 19,
+        "tracks": [
+            {
+                "trackName": "Hell In A Bucket",
+                "trackExtension": "gd94-10-09d1t02",
+                "trackDuration": 488
+            },
+            {
+                "trackName": "Bertha",
+                "trackExtension": "gd94-10-09d1t03",
+                "trackDuration": 474
+            },
+            {
+                "trackName": "Spoonful",
+                "trackExtension": "gd94-10-09d1t04",
+                "trackDuration": 317
+            },
+            {
+                "trackName": "Stagger Lee",
+                "trackExtension": "gd94-10-09d1t05",
+                "trackDuration": 521
+            },
+            {
+                "trackName": "Broken Arrow",
+                "trackExtension": "gd94-10-09d1t06",
+                "trackDuration": 395
+            },
+            {
+                "trackName": "Me And My Uncle ->",
+                "trackExtension": "gd94-10-09d1t07",
+                "trackDuration": 168
+            },
+            {
+                "trackName": "Big River",
+                "trackExtension": "gd94-10-09d1t08",
+                "trackDuration": 458
+            },
+            {
+                "trackName": "So Many Roads",
+                "trackExtension": "gd94-10-09d1t09",
+                "trackDuration": 450
+            },
+            {
+                "trackName": "The Promised Land",
+                "trackExtension": "gd94-10-09d1t10",
+                "trackDuration": 296
+            },
+            {
+                "trackName": "Here Comes Sunshine ->",
+                "trackExtension": "gd94-10-09d2t02",
+                "trackDuration": 351
+            },
+            {
+                "trackName": "Samson & Delilah",
+                "trackExtension": "gd94-10-09d2t03",
+                "trackDuration": 552
+            },
+            {
+                "trackName": "Way To Go Home",
+                "trackExtension": "gd94-10-09d2t04",
+                "trackDuration": 400
+            },
+            {
+                "trackName": "Ship Of Fools",
+                "trackExtension": "gd94-10-09d2t05",
+                "trackDuration": 421
+            },
+            {
+                "trackName": "Saint Of Circumstance ->",
+                "trackExtension": "gd94-10-09d3t01",
+                "trackDuration": 632
+            },
+            {
+                "trackName": "I Need A Miracke ->",
+                "trackExtension": "gd94-10-09d3t04",
+                "trackDuration": 322
+            },
+            {
+                "trackName": "Comes A Time ->",
+                "trackExtension": "gd94-10-09d3t05",
+                "trackDuration": 368
+            },
+            {
+                "trackName": "Throwing Stones ->",
+                "trackExtension": "gd94-10-09d3t06",
+                "trackDuration": 555
+            },
+            {
+                "trackName": "Turn On Your Lovelight",
+                "trackExtension": "gd94-10-09d3t07",
+                "trackDuration": 340
+            },
+            {
+                "trackName": "Rain",
+                "trackExtension": "gd94-10-09d3t09",
+                "trackDuration": 297
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Madison Square Garden on 1994-10-13",
+        "showDate": "1994-10-13",
+        "showYear": 1994,
+        "showExtension": "gd1994-10-13.sbd.miller.tetzeli.fix-33299.33822.reflac.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 17,
+        "tracks": [
+            {
+                "trackName": "Touch Of Grey",
+                "trackExtension": "gd94-10-13d1t02",
+                "trackDuration": 407
+            },
+            {
+                "trackName": "Wang Dang Doodle",
+                "trackExtension": "gd94-10-13d1t03",
+                "trackDuration": 389
+            },
+            {
+                "trackName": "Loser",
+                "trackExtension": "gd94-10-13d1t04",
+                "trackDuration": 507
+            },
+            {
+                "trackName": "Mama Tried >",
+                "trackExtension": "gd94-10-13d1t05",
+                "trackDuration": 156
+            },
+            {
+                "trackName": "Mexicali Blues",
+                "trackExtension": "gd94-10-13d1t06",
+                "trackDuration": 402
+            },
+            {
+                "trackName": "Dupree's Diamond Blues",
+                "trackExtension": "gd94-10-13d1t07",
+                "trackDuration": 367
+            },
+            {
+                "trackName": "When I Paint My Masterpiece",
+                "trackExtension": "gd94-10-13d1t08",
+                "trackDuration": 325
+            },
+            {
+                "trackName": "Loose Lucy",
+                "trackExtension": "gd94-10-13d1t09",
+                "trackDuration": 576
+            },
+            {
+                "trackName": "Let It Grow",
+                "trackExtension": "gd94-10-13d1t10",
+                "trackDuration": 764
+            },
+            {
+                "trackName": "Foolish Heart",
+                "trackExtension": "gd94-10-13d2t01",
+                "trackDuration": 656
+            },
+            {
+                "trackName": "Playing In The Band >",
+                "trackExtension": "gd94-10-13d2t02",
+                "trackDuration": 655
+            },
+            {
+                "trackName": "Uncle John's Band >",
+                "trackExtension": "gd94-10-13d2t03",
+                "trackDuration": 726
+            },
+            {
+                "trackName": "Jam >",
+                "trackExtension": "gd94-10-13d2t04",
+                "trackDuration": 359
+            },
+            {
+                "trackName": "The Other One >",
+                "trackExtension": "gd94-10-13d3t02",
+                "trackDuration": 624
+            },
+            {
+                "trackName": "Wharf Rat >",
+                "trackExtension": "gd94-10-13d3t03",
+                "trackDuration": 699
+            },
+            {
+                "trackName": "Johnny B. Goode",
+                "trackExtension": "gd94-10-13d3t04",
+                "trackDuration": 408
+            },
+            {
+                "trackName": "It's All Over Now, Baby Blue",
+                "trackExtension": "gd94-10-13d3t05",
+                "trackDuration": 439
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Deer Creek Music Center on 1994-07-19",
+        "showDate": "1994-07-19",
+        "showYear": 1994,
+        "showExtension": "gd1994-07-19.sbd.carr.tetzeli.fix-8476.35164.reflac.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Shakedown Street",
+                "trackExtension": "gd94-07-19d1t01",
+                "trackDuration": 820
+            },
+            {
+                "trackName": "Walkin' Blues",
+                "trackExtension": "gd94-07-19d1t02",
+                "trackDuration": 388
+            },
+            {
+                "trackName": "Jack-A-Roe",
+                "trackExtension": "gd94-07-19d1t03",
+                "trackDuration": 374
+            },
+            {
+                "trackName": "Big River >",
+                "trackExtension": "gd94-07-19d1t04",
+                "trackDuration": 343
+            },
+            {
+                "trackName": "Maggie's Farm",
+                "trackExtension": "gd94-07-19d1t05",
+                "trackDuration": 529
+            },
+            {
+                "trackName": "Broken Arrow",
+                "trackExtension": "gd94-07-19d1t06",
+                "trackDuration": 318
+            },
+            {
+                "trackName": "Tennessee Jed",
+                "trackExtension": "gd94-07-19d1t07",
+                "trackDuration": 507
+            },
+            {
+                "trackName": "Easy Answers",
+                "trackExtension": "gd94-07-19d1t08",
+                "trackDuration": 412
+            },
+            {
+                "trackName": "Foolish Heart >",
+                "trackExtension": "gd94-07-19d2t01",
+                "trackDuration": 716
+            },
+            {
+                "trackName": "Saint of Circumstance >",
+                "trackExtension": "gd94-07-19d2t02",
+                "trackDuration": 445
+            },
+            {
+                "trackName": "I Want To Tell You >",
+                "trackExtension": "gd94-07-19d2t03",
+                "trackDuration": 253
+            },
+            {
+                "trackName": "Playin' In The Band >",
+                "trackExtension": "gd94-07-19d2t04",
+                "trackDuration": 1031
+            },
+            {
+                "trackName": "Wharf Rat >",
+                "trackExtension": "gd94-07-19d3t02",
+                "trackDuration": 667
+            },
+            {
+                "trackName": "Throwing Stones >",
+                "trackExtension": "gd94-07-19d3t03",
+                "trackDuration": 627
+            },
+            {
+                "trackName": "Not Fade Away",
+                "trackExtension": "gd94-07-19d3t04",
+                "trackDuration": 679
+            },
+            {
+                "trackName": "Rain",
+                "trackExtension": "gd94-07-19d3t05",
+                "trackDuration": 274
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Nassau Coliseum on 1994-03-27",
+        "showDate": "1994-03-27",
+        "showYear": 1994,
+        "showExtension": "gd1994-03-27.daud.unLDed.4851.shnf",
+        "audioType": "shn",
+        "numberOfTracks": 15,
+        "tracks": [
+            {
+                "trackName": "Jack Straw",
+                "trackExtension": "gd94-03-27d1t01",
+                "trackDuration": 345
+            },
+            {
+                "trackName": "Jack a Roe",
+                "trackExtension": "gd94-03-27d1t02",
+                "trackDuration": 336
+            },
+            {
+                "trackName": "It's All Over Now",
+                "trackExtension": "gd94-03-27d1t03",
+                "trackDuration": 367
+            },
+            {
+                "trackName": "Stagger Lee",
+                "trackExtension": "gd94-03-27d1t04",
+                "trackDuration": 434
+            },
+            {
+                "trackName": "Queen Jane Approx.",
+                "trackExtension": "gd94-03-27d1t05",
+                "trackDuration": 453
+            },
+            {
+                "trackName": "Candyman",
+                "trackExtension": "gd94-03-27d1t06",
+                "trackDuration": 434
+            },
+            {
+                "trackName": "Easy Answers",
+                "trackExtension": "gd94-03-27d1t07",
+                "trackDuration": 396
+            },
+            {
+                "trackName": "Deal",
+                "trackExtension": "gd94-03-27d1t08",
+                "trackDuration": 644
+            },
+            {
+                "trackName": "Samson & Delilah",
+                "trackExtension": "gd94-03-27d1t09",
+                "trackDuration": 593
+            },
+            {
+                "trackName": "Aiko Aiko",
+                "trackExtension": "gd94-03-27d1t10",
+                "trackDuration": 796
+            },
+            {
+                "trackName": "Playin' in the Band >",
+                "trackExtension": "gd94-03-27d2t01",
+                "trackDuration": 477
+            },
+            {
+                "trackName": "Uncle John's Band >",
+                "trackExtension": "gd94-03-27d2t02",
+                "trackDuration": 783
+            },
+            {
+                "trackName": "The Other One >",
+                "trackExtension": "gd94-03-27d2t05",
+                "trackDuration": 635
+            },
+            {
+                "trackName": "Morning Dew",
+                "trackExtension": "gd94-03-27d2t06",
+                "trackDuration": 899
+            },
+            {
+                "trackName": "encore: Johnny B. Goode",
+                "trackExtension": "gd94-03-27d2t07",
+                "trackDuration": 291
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Boston Garden on 1994-09-27",
+        "showDate": "1994-09-27",
+        "showYear": 1994,
+        "showExtension": "gd1994-09-27.136852.sbd.miller.flac1648",
+        "audioType": "flac",
+        "numberOfTracks": 17,
+        "tracks": [
+            {
+                "trackName": "02 Feel Like A Stranger",
+                "trackExtension": "02FeelLikeAStranger",
+                "trackDuration": 604
+            },
+            {
+                "trackName": "03 They Love Each Other",
+                "trackExtension": "03TheyLoveEachOther",
+                "trackDuration": 607
+            },
+            {
+                "trackName": "04 New Minglewood Blues",
+                "trackExtension": "04NewMinglewoodBlues",
+                "trackDuration": 553
+            },
+            {
+                "trackName": "05 So Many Roads",
+                "trackExtension": "05SoManyRoads",
+                "trackDuration": 448
+            },
+            {
+                "trackName": "06 Maggie's Farm",
+                "trackExtension": "06MaggiesFarm",
+                "trackDuration": 362
+            },
+            {
+                "trackName": "07 Cumberland Blues",
+                "trackExtension": "07CumberlandBlues",
+                "trackDuration": 322
+            },
+            {
+                "trackName": "08 Easy Answers",
+                "trackExtension": "08EasyAnswers",
+                "trackDuration": 402
+            },
+            {
+                "trackName": "09 Deal",
+                "trackExtension": "09Deal",
+                "trackDuration": 375
+            },
+            {
+                "trackName": "10 China Cat Sunflower",
+                "trackExtension": "10ChinaCatSunflower",
+                "trackDuration": 471
+            },
+            {
+                "trackName": "11 I Know You Rider",
+                "trackExtension": "11IKnowYouRider",
+                "trackDuration": 378
+            },
+            {
+                "trackName": "12 Women Are Smarter",
+                "trackExtension": "12WomenAreSmarter",
+                "trackDuration": 644
+            },
+            {
+                "trackName": "13 Way To Go Home",
+                "trackExtension": "13WayToGoHome",
+                "trackDuration": 385
+            },
+            {
+                "trackName": "14 Corrina",
+                "trackExtension": "14Corrina",
+                "trackDuration": 650
+            },
+            {
+                "trackName": "15 Uncle John's Band",
+                "trackExtension": "15UncleJohnsBand",
+                "trackDuration": 953
+            },
+            {
+                "trackName": "18 All Along The Watchtower",
+                "trackExtension": "18AllAlongTheWatchtower",
+                "trackDuration": 403
+            },
+            {
+                "trackName": "19 Standing On The Moon",
+                "trackExtension": "19StandingOnTheMoon",
+                "trackDuration": 537
+            },
+            {
+                "trackName": "21 Johnny B Goode",
+                "trackExtension": "21JohnnyBGoode",
+                "trackDuration": 271
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at USAir Arena on 1994-10-11",
+        "showDate": "1994-10-11",
+        "showYear": 1994,
+        "showExtension": "gd1994-10-11.sbd.miller.34564.sbeok.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 15,
+        "tracks": [
+            {
+                "trackName": "Picasso Moon",
+                "trackExtension": "gd94-10-11d1t02",
+                "trackDuration": 404
+            },
+            {
+                "trackName": "Jack-A-Roe",
+                "trackExtension": "gd94-10-11d1t03",
+                "trackDuration": 337
+            },
+            {
+                "trackName": "It's All Over Now",
+                "trackExtension": "gd94-10-11d1t04",
+                "trackDuration": 359
+            },
+            {
+                "trackName": "High Time",
+                "trackExtension": "gd94-10-11d1t05",
+                "trackDuration": 435
+            },
+            {
+                "trackName": "If The Shoe Fits",
+                "trackExtension": "gd94-10-11d1t06",
+                "trackDuration": 376
+            },
+            {
+                "trackName": "Lazy River Road",
+                "trackExtension": "gd94-10-11d1t07",
+                "trackDuration": 440
+            },
+            {
+                "trackName": "Easy Answers ->",
+                "trackExtension": "gd94-10-11d1t08",
+                "trackDuration": 343
+            },
+            {
+                "trackName": "Deal",
+                "trackExtension": "gd94-10-11d1t09",
+                "trackDuration": 585
+            },
+            {
+                "trackName": "Eyes Of The World ->",
+                "trackExtension": "gd94-10-11d2t01",
+                "trackDuration": 1297
+            },
+            {
+                "trackName": "Man Smart (Woman Smarter) ->",
+                "trackExtension": "gd94-10-11d2t02",
+                "trackDuration": 573
+            },
+            {
+                "trackName": "Samba In The Rain ->",
+                "trackExtension": "gd94-10-11d2t03",
+                "trackDuration": 396
+            },
+            {
+                "trackName": "He's Gone ->",
+                "trackExtension": "gd94-10-11d2t04",
+                "trackDuration": 995
+            },
+            {
+                "trackName": "China Doll ->",
+                "trackExtension": "gd94-10-11d3t02",
+                "trackDuration": 322
+            },
+            {
+                "trackName": "Sugar Magnolia",
+                "trackExtension": "gd94-10-11d3t03",
+                "trackDuration": 529
+            },
+            {
+                "trackName": "Lucy In The Sky With Diamonds",
+                "trackExtension": "gd94-10-11d3t05",
+                "trackDuration": 263
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Richfield Coliseum on 1994-03-21",
+        "showDate": "1994-03-21",
+        "showYear": 1994,
+        "showExtension": "gd1994-03-21.125739.mtx.eichorn.sbeok.t-flac16",
+        "audioType": "flac",
+        "numberOfTracks": 18,
+        "tracks": [
+            {
+                "trackName": "Greatest Story Ever Told >",
+                "trackExtension": "gd94-03-21d1t02",
+                "trackDuration": 218
+            },
+            {
+                "trackName": "Bertha",
+                "trackExtension": "gd94-03-21d1t03",
+                "trackDuration": 405
+            },
+            {
+                "trackName": "The Same Thing",
+                "trackExtension": "gd94-03-21d1t05",
+                "trackDuration": 441
+            },
+            {
+                "trackName": "Peggy-O",
+                "trackExtension": "gd94-03-21d1t06",
+                "trackDuration": 443
+            },
+            {
+                "trackName": "Queen Jane Approximately",
+                "trackExtension": "gd94-03-21d1t07",
+                "trackDuration": 372
+            },
+            {
+                "trackName": "West L.A. Fadeaway",
+                "trackExtension": "gd94-03-21d1t08",
+                "trackDuration": 443
+            },
+            {
+                "trackName": "Eternity",
+                "trackExtension": "gd94-03-21d1t10",
+                "trackDuration": 737
+            },
+            {
+                "trackName": "Tennessee Jed",
+                "trackExtension": "gd94-03-21d1t11",
+                "trackDuration": 463
+            },
+            {
+                "trackName": "Picasso Moon",
+                "trackExtension": "gd94-03-21d2t01",
+                "trackDuration": 439
+            },
+            {
+                "trackName": "New Speedway Boogie",
+                "trackExtension": "gd94-03-21d2t02",
+                "trackDuration": 469
+            },
+            {
+                "trackName": "Victim or the Crime >",
+                "trackExtension": "gd94-03-21d2t03",
+                "trackDuration": 571
+            },
+            {
+                "trackName": "He's Gone >",
+                "trackExtension": "gd94-03-21d2t04",
+                "trackDuration": 923
+            },
+            {
+                "trackName": "Jam >",
+                "trackExtension": "gd94-03-21d2t05",
+                "trackDuration": 503
+            },
+            {
+                "trackName": "Turn On Your Lovelight >",
+                "trackExtension": "gd94-03-21d3t02",
+                "trackDuration": 318
+            },
+            {
+                "trackName": "Stella Blue >",
+                "trackExtension": "gd94-03-21d3t03",
+                "trackDuration": 492
+            },
+            {
+                "trackName": "Turn On Your Lovelight",
+                "trackExtension": "gd94-03-21d3t04",
+                "trackDuration": 175
+            },
+            {
+                "trackName": "Liberty*",
+                "trackExtension": "gd94-03-21d3t06",
+                "trackDuration": 490
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Rosemont Horizon on 1994-03-16",
+        "showDate": "1994-03-16",
+        "showYear": 1994,
+        "showExtension": "gd1994-03-16.sbd.3D.567.shnf",
+        "audioType": "shn",
+        "numberOfTracks": 20,
+        "tracks": [
+            {
+                "trackName": "Jack Straw",
+                "trackExtension": "gd94-03-16d1t01",
+                "trackDuration": 454
+            },
+            {
+                "trackName": "Friend Of The Devil",
+                "trackExtension": "gd94-03-16d1t02",
+                "trackDuration": 503
+            },
+            {
+                "trackName": "Minglewood Blues",
+                "trackExtension": "gd94-03-16d1t03",
+                "trackDuration": 545
+            },
+            {
+                "trackName": "So Many Roads",
+                "trackExtension": "gd94-03-16d1t04",
+                "trackDuration": 443
+            },
+            {
+                "trackName": "Tom Thumb Blues",
+                "trackExtension": "gd94-03-16d1t05",
+                "trackDuration": 419
+            },
+            {
+                "trackName": "Beat It On Down The Line",
+                "trackExtension": "gd94-03-16d1t06",
+                "trackDuration": 194
+            },
+            {
+                "trackName": "High Time",
+                "trackExtension": "gd94-03-16d1t07",
+                "trackDuration": 423
+            },
+            {
+                "trackName": "Easy Answers",
+                "trackExtension": "gd94-03-16d1t08",
+                "trackDuration": 352
+            },
+            {
+                "trackName": "Don't Ease Me In",
+                "trackExtension": "gd94-03-16d1t09",
+                "trackDuration": 180
+            },
+            {
+                "trackName": "Scarlet Begonias>",
+                "trackExtension": "gd94-03-16d2t01",
+                "trackDuration": 656
+            },
+            {
+                "trackName": "Fire On The Mountain",
+                "trackExtension": "gd94-03-16d2t02",
+                "trackDuration": 747
+            },
+            {
+                "trackName": "Looks Like Rain",
+                "trackExtension": "gd94-03-16d2t03",
+                "trackDuration": 506
+            },
+            {
+                "trackName": "Long Way To Go Home",
+                "trackExtension": "gd94-03-16d2t04",
+                "trackDuration": 392
+            },
+            {
+                "trackName": "Dark Star (1st verse)>",
+                "trackExtension": "gd94-03-16d2t05",
+                "trackDuration": 675
+            },
+            {
+                "trackName": "Drumz>",
+                "trackExtension": "gd94-03-16d2t06",
+                "trackDuration": 750
+            },
+            {
+                "trackName": "I Need A Miracle>",
+                "trackExtension": "gd94-03-16d3t01",
+                "trackDuration": 319
+            },
+            {
+                "trackName": "Standing On The Moon>",
+                "trackExtension": "gd94-03-16d3t02",
+                "trackDuration": 530
+            },
+            {
+                "trackName": "Sugar Magnoilia>",
+                "trackExtension": "gd94-03-16d3t03",
+                "trackDuration": 370
+            },
+            {
+                "trackName": "Sunshine Daydream",
+                "trackExtension": "gd94-03-16d3t04",
+                "trackDuration": 341
+            },
+            {
+                "trackName": "I Fought The Law",
+                "trackExtension": "gd94-03-16d3t05",
+                "trackDuration": 302
+            }
+        ]
+    },
+    {
+        "showName": "The Grateful Dead Live at Soldier Field on 1995-07-09",
+        "showDate": "1995-07-09",
+        "showYear": 1995,
+        "showExtension": "gd1995-07-09.sbd.miller.114369.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Touch Of Grey",
+                "trackExtension": "gd95-07-09d1t01",
+                "trackDuration": 446
+            },
+            {
+                "trackName": "Little Red Rooster",
+                "trackExtension": "gd95-07-09d1t02",
+                "trackDuration": 462
+            },
+            {
+                "trackName": "Lazy River Road",
+                "trackExtension": "gd95-07-09d1t03",
+                "trackDuration": 420
+            },
+            {
+                "trackName": "When I Paint My Masterpiece",
+                "trackExtension": "gd95-07-09d1t04",
+                "trackDuration": 344
+            },
+            {
+                "trackName": "Childhood's End",
+                "trackExtension": "gd95-07-09d1t05",
+                "trackDuration": 280
+            },
+            {
+                "trackName": "Cumberland Blues",
+                "trackExtension": "gd95-07-09d1t06",
+                "trackDuration": 275
+            },
+            {
+                "trackName": "Promised Land",
+                "trackExtension": "gd95-07-09d1t07",
+                "trackDuration": 274
+            },
+            {
+                "trackName": "Shakedown Street",
+                "trackExtension": "gd95-07-09d1t08",
+                "trackDuration": 852
+            },
+            {
+                "trackName": "Samson And Delilah",
+                "trackExtension": "gd95-07-09d1t09",
+                "trackDuration": 464
+            },
+            {
+                "trackName": "So Many Roads",
+                "trackExtension": "gd95-07-09d1t10",
+                "trackDuration": 701
+            },
+            {
+                "trackName": "Samba In The Rain",
+                "trackExtension": "gd95-07-09d2t01",
+                "trackDuration": 397
+            },
+            {
+                "trackName": "Corrina ->",
+                "trackExtension": "gd95-07-09d2t02",
+                "trackDuration": 884
+            },
+            {
+                "trackName": "Unbroken Chain ->",
+                "trackExtension": "gd95-07-09d2t05",
+                "trackDuration": 417
+            },
+            {
+                "trackName": "Sugar Magnolia",
+                "trackExtension": "gd95-07-09d2t06",
+                "trackDuration": 565
+            },
+            {
+                "trackName": "Black Muddy River",
+                "trackExtension": "gd95-07-09d2t07",
+                "trackDuration": 314
+            },
+            {
+                "trackName": "Box Of Rain",
+                "trackExtension": "gd95-07-09d2t08",
+                "trackDuration": 290
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at The Spectrum on 1995-03-18",
+        "showDate": "1995-03-18",
+        "showYear": 1995,
+        "showExtension": "gd95-03-18.sbd.1362.sbeok.shnf",
+        "audioType": "shn",
+        "numberOfTracks": 15,
+        "tracks": [
+            {
+                "trackName": "Hell In A Bucket",
+                "trackExtension": "gd95-03-18d1t01",
+                "trackDuration": 391
+            },
+            {
+                "trackName": "West L.A. Fadeaway",
+                "trackExtension": "gd95-03-18d1t02",
+                "trackDuration": 538
+            },
+            {
+                "trackName": "El Paso",
+                "trackExtension": "gd95-03-18d1t03",
+                "trackDuration": 365
+            },
+            {
+                "trackName": "Ramble On Rose",
+                "trackExtension": "gd95-03-18d1t04",
+                "trackDuration": 626
+            },
+            {
+                "trackName": "Just Like Tom Thumb's Blues",
+                "trackExtension": "gd95-03-18d1t05",
+                "trackDuration": 355
+            },
+            {
+                "trackName": "Jack-A-Roe",
+                "trackExtension": "gd95-03-18d1t06",
+                "trackDuration": 282
+            },
+            {
+                "trackName": "The Promised Land",
+                "trackExtension": "gd95-03-18d1t07",
+                "trackDuration": 257
+            },
+            {
+                "trackName": "It's All Too Much",
+                "trackExtension": "gd95-03-18d1t08",
+                "trackDuration": 407
+            },
+            {
+                "trackName": "Iko Iko",
+                "trackExtension": "gd95-03-18d1t09",
+                "trackDuration": 706
+            },
+            {
+                "trackName": "Playing In the Band jam",
+                "trackExtension": "gd95-03-18d2t01",
+                "trackDuration": 295
+            },
+            {
+                "trackName": "Uncle John's Band",
+                "trackExtension": "gd95-03-18d2t02",
+                "trackDuration": 766
+            },
+            {
+                "trackName": "The Last Time",
+                "trackExtension": "gd95-03-18d2t05",
+                "trackDuration": 389
+            },
+            {
+                "trackName": "Visions Of Johanna",
+                "trackExtension": "gd95-03-18d2t06",
+                "trackDuration": 625
+            },
+            {
+                "trackName": "One More Saturday Night",
+                "trackExtension": "gd95-03-18d2t07",
+                "trackDuration": 314
+            },
+            {
+                "trackName": "Rain",
+                "trackExtension": "gd95-03-18d2t08",
+                "trackDuration": 260
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Franklin County Airport on 1995-06-15",
+        "showDate": "1995-06-15",
+        "showYear": 1995,
+        "showExtension": "gd1995-06-15.sbd.unknown.shibata.35212.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 18,
+        "tracks": [
+            {
+                "trackName": "Touch Of Gray",
+                "trackExtension": "gd95-06-15d1t01",
+                "trackDuration": 409
+            },
+            {
+                "trackName": "Wang Dang Doodle",
+                "trackExtension": "gd95-06-15d1t02",
+                "trackDuration": 390
+            },
+            {
+                "trackName": "Peggy-O",
+                "trackExtension": "gd95-06-15d1t03",
+                "trackDuration": 360
+            },
+            {
+                "trackName": "El Paso",
+                "trackExtension": "gd95-06-15d1t04",
+                "trackDuration": 359
+            },
+            {
+                "trackName": "Ramble On Rose",
+                "trackExtension": "gd95-06-15d1t05",
+                "trackDuration": 433
+            },
+            {
+                "trackName": "Black Throated Wind",
+                "trackExtension": "gd95-06-15d1t06",
+                "trackDuration": 443
+            },
+            {
+                "trackName": "Loose Lucy",
+                "trackExtension": "gd95-06-15d1t07",
+                "trackDuration": 443
+            },
+            {
+                "trackName": "Promised Lan",
+                "trackExtension": "gd95-06-15d1t08",
+                "trackDuration": 282
+            },
+            {
+                "trackName": "Here Comes Sunshine",
+                "trackExtension": "gd95-06-15d1t09",
+                "trackDuration": 390
+            },
+            {
+                "trackName": "Samba In The Rain",
+                "trackExtension": "gd95-06-15d1t10",
+                "trackDuration": 383
+            },
+            {
+                "trackName": "Truckin'",
+                "trackExtension": "gd95-06-15d1t11",
+                "trackDuration": 473
+            },
+            {
+                "trackName": "Rollin' & Tumblin' >",
+                "trackExtension": "gd95-06-15d2t01",
+                "trackDuration": 235
+            },
+            {
+                "trackName": "He's Gone >",
+                "trackExtension": "gd95-06-15d2t03",
+                "trackDuration": 527
+            },
+            {
+                "trackName": "Drumz >",
+                "trackExtension": "gd95-06-15d2t04",
+                "trackDuration": 908
+            },
+            {
+                "trackName": "Box Of Rain >",
+                "trackExtension": "gd95-06-15d2t06",
+                "trackDuration": 290
+            },
+            {
+                "trackName": "Standing On the Moon >",
+                "trackExtension": "gd95-06-15d2t07",
+                "trackDuration": 494
+            },
+            {
+                "trackName": "Sugar Magnolia",
+                "trackExtension": "gd95-06-15d2t08",
+                "trackDuration": 571
+            },
+            {
+                "trackName": "Liberty",
+                "trackExtension": "gd95-06-15d2t09",
+                "trackDuration": 354
+            }
+        ]
+    },
+    {
+        "showName": "The Grateful Dead Live at Delta Center on 1995-02-21",
+        "showDate": "1995-02-21",
+        "showYear": 1995,
+        "showExtension": "gd1995-02-21.sbd.miller.114144.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 13,
+        "tracks": [
+            {
+                "trackName": "Salt Lake City",
+                "trackExtension": "gd95-02-21d1t01",
+                "trackDuration": 294
+            },
+            {
+                "trackName": "Friend Of The Devil",
+                "trackExtension": "gd95-02-21d1t02",
+                "trackDuration": 474
+            },
+            {
+                "trackName": "Wang Dang Doodle",
+                "trackExtension": "gd95-02-21d1t03",
+                "trackDuration": 388
+            },
+            {
+                "trackName": "Tennessee Jed",
+                "trackExtension": "gd95-02-21d1t04",
+                "trackDuration": 508
+            },
+            {
+                "trackName": "Broken Arrow",
+                "trackExtension": "gd95-02-21d1t05",
+                "trackDuration": 404
+            },
+            {
+                "trackName": "Black Throated Wind",
+                "trackExtension": "gd95-02-21d1t06",
+                "trackDuration": 382
+            },
+            {
+                "trackName": "So Many Roads",
+                "trackExtension": "gd95-02-21d1t07",
+                "trackDuration": 503
+            },
+            {
+                "trackName": "The Music Never Stopped",
+                "trackExtension": "gd95-02-21d1t08",
+                "trackDuration": 531
+            },
+            {
+                "trackName": "Foolish Heart",
+                "trackExtension": "gd95-02-21d1t09",
+                "trackDuration": 633
+            },
+            {
+                "trackName": "Samba In The Rain",
+                "trackExtension": "gd95-02-21d1t10",
+                "trackDuration": 423
+            },
+            {
+                "trackName": "Truckin' ->",
+                "trackExtension": "gd95-02-21d2t01",
+                "trackDuration": 498
+            },
+            {
+                "trackName": "Sugar Magnolia",
+                "trackExtension": "gd95-02-21d2t07",
+                "trackDuration": 648
+            },
+            {
+                "trackName": "Liberty",
+                "trackExtension": "gd95-02-21d2t08",
+                "trackDuration": 412
+            }
+        ]
+    },
+    {
+        "showName": "The Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02",
+        "showDate": "1995-06-02",
+        "showYear": 1995,
+        "showExtension": "gd1995-06-02.sbd.miller.114337.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 17,
+        "tracks": [
+            {
+                "trackName": "Alabama Getaway ->",
+                "trackExtension": "gd95-06-02d1t01",
+                "trackDuration": 389
+            },
+            {
+                "trackName": "Greatest Story Ever Told",
+                "trackExtension": "gd95-06-02d1t02",
+                "trackDuration": 338
+            },
+            {
+                "trackName": "Candyman",
+                "trackExtension": "gd95-06-02d1t03",
+                "trackDuration": 496
+            },
+            {
+                "trackName": "Good Morning Little Schoolgirl",
+                "trackExtension": "gd95-06-02d1t04",
+                "trackDuration": 358
+            },
+            {
+                "trackName": "Ramble On Rose",
+                "trackExtension": "gd95-06-02d1t05",
+                "trackDuration": 538
+            },
+            {
+                "trackName": "El Paso",
+                "trackExtension": "gd95-06-02d1t06",
+                "trackDuration": 366
+            },
+            {
+                "trackName": "Bird Song ->",
+                "trackExtension": "gd95-06-02d1t07",
+                "trackDuration": 922
+            },
+            {
+                "trackName": "Promised Land",
+                "trackExtension": "gd95-06-02d1t08",
+                "trackDuration": 283
+            },
+            {
+                "trackName": "New Speedway Boogie ->",
+                "trackExtension": "gd95-06-02d2t01",
+                "trackDuration": 514
+            },
+            {
+                "trackName": "That Would Be Something ->",
+                "trackExtension": "gd95-06-02d2t02",
+                "trackDuration": 367
+            },
+            {
+                "trackName": "Way To Go Home ->",
+                "trackExtension": "gd95-06-02d2t03",
+                "trackDuration": 390
+            },
+            {
+                "trackName": "Saint Of Circumstance ->",
+                "trackExtension": "gd95-06-02d2t04",
+                "trackDuration": 539
+            },
+            {
+                "trackName": "He's Gone ->",
+                "trackExtension": "gd95-06-02d2t05",
+                "trackDuration": 873
+            },
+            {
+                "trackName": "Easy Answers ->",
+                "trackExtension": "gd95-06-02d3t02",
+                "trackDuration": 465
+            },
+            {
+                "trackName": "Standing On The Moon ->",
+                "trackExtension": "gd95-06-02d3t03",
+                "trackDuration": 647
+            },
+            {
+                "trackName": "Around And Around",
+                "trackExtension": "gd95-06-02d3t04",
+                "trackDuration": 544
+            },
+            {
+                "trackName": "Lucy In The Sky With Diamonds",
+                "trackExtension": "gd95-06-02d3t05",
+                "trackDuration": 254
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at The Spectrum on 1995-03-19",
+        "showDate": "1995-03-19",
+        "showYear": 1995,
+        "showExtension": "gd1995-03-19.136858.sbd.miller.flac1648",
+        "audioType": "flac",
+        "numberOfTracks": 15,
+        "tracks": [
+            {
+                "trackName": "01 Alabama Getaway",
+                "trackExtension": "01AlabamaGetaway",
+                "trackDuration": 347
+            },
+            {
+                "trackName": "02 Walkin' Blues",
+                "trackExtension": "02WalkinBlues",
+                "trackDuration": 446
+            },
+            {
+                "trackName": "03 So Many Roads",
+                "trackExtension": "03SoManyRoads",
+                "trackDuration": 500
+            },
+            {
+                "trackName": "04 Easy Answers",
+                "trackExtension": "04EasyAnswers",
+                "trackDuration": 419
+            },
+            {
+                "trackName": "05 Don't Ease Me In",
+                "trackExtension": "05DontEaseMeIn",
+                "trackDuration": 241
+            },
+            {
+                "trackName": "06 Unbroken Chain",
+                "trackExtension": "06UnbrokenChain",
+                "trackDuration": 370
+            },
+            {
+                "trackName": "07 Samson And Delilah",
+                "trackExtension": "07SamsonAndDelilah",
+                "trackDuration": 518
+            },
+            {
+                "trackName": "08 Way To Go Home",
+                "trackExtension": "08WayToGoHome",
+                "trackDuration": 389
+            },
+            {
+                "trackName": "09 Crazy Fingers",
+                "trackExtension": "09CrazyFingers",
+                "trackDuration": 581
+            },
+            {
+                "trackName": "10 Corrina",
+                "trackExtension": "10Corrina",
+                "trackDuration": 721
+            },
+            {
+                "trackName": "11 Mathilda",
+                "trackExtension": "11Mathilda",
+                "trackDuration": 258
+            },
+            {
+                "trackName": "14 I Need A Miracle",
+                "trackExtension": "14INeedAMiracle",
+                "trackDuration": 279
+            },
+            {
+                "trackName": "15 Stella Blue",
+                "trackExtension": "15StellaBlue",
+                "trackDuration": 465
+            },
+            {
+                "trackName": "16 Not Fade Away",
+                "trackExtension": "16NotFadeAway",
+                "trackDuration": 519
+            },
+            {
+                "trackName": "17 Brokedown Palace",
+                "trackExtension": "17BrokedownPalace",
+                "trackDuration": 293
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at The Spectrum on 1995-03-17",
+        "showDate": "1995-03-17",
+        "showYear": 1995,
+        "showExtension": "gd1995-03-17.sbd.miller.97658.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Here Comes Sunshine",
+                "trackExtension": "gd95-03-17d1t01",
+                "trackDuration": 381
+            },
+            {
+                "trackName": "Wang Dang Doodle",
+                "trackExtension": "gd95-03-17d1t02",
+                "trackDuration": 495
+            },
+            {
+                "trackName": "Peggy-O",
+                "trackExtension": "gd95-03-17d1t03",
+                "trackDuration": 466
+            },
+            {
+                "trackName": "Queen Jane Approximately",
+                "trackExtension": "gd95-03-17d1t04",
+                "trackDuration": 461
+            },
+            {
+                "trackName": "Lazy River Road",
+                "trackExtension": "gd95-03-17d1t05",
+                "trackDuration": 548
+            },
+            {
+                "trackName": "Eternity",
+                "trackExtension": "gd95-03-17d1t06",
+                "trackDuration": 568
+            },
+            {
+                "trackName": "Loose Lucy",
+                "trackExtension": "gd95-03-17d1t07",
+                "trackDuration": 441
+            },
+            {
+                "trackName": "China Cat Sunflower ->",
+                "trackExtension": "gd95-03-17d2t01",
+                "trackDuration": 364
+            },
+            {
+                "trackName": "I Know You Rider",
+                "trackExtension": "gd95-03-17d2t02",
+                "trackDuration": 329
+            },
+            {
+                "trackName": "Samba In The Rain",
+                "trackExtension": "gd95-03-17d2t03",
+                "trackDuration": 452
+            },
+            {
+                "trackName": "Truckin' ->",
+                "trackExtension": "gd95-03-17d2t04",
+                "trackDuration": 580
+            },
+            {
+                "trackName": "New Speedway Boogie ->",
+                "trackExtension": "gd95-03-17d2t05",
+                "trackDuration": 747
+            },
+            {
+                "trackName": "All Along The Watchtower ->",
+                "trackExtension": "gd95-03-17d3t02",
+                "trackDuration": 527
+            },
+            {
+                "trackName": "Standing On The Moon ->",
+                "trackExtension": "gd95-03-17d3t03",
+                "trackDuration": 511
+            },
+            {
+                "trackName": "Sugar Magnolia",
+                "trackExtension": "gd95-03-17d3t04",
+                "trackDuration": 495
+            },
+            {
+                "trackName": "Lucy In The Sky With Diamonds",
+                "trackExtension": "gd95-03-17d3t05",
+                "trackDuration": 469
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Riverport Amphitheater on 1995-07-05",
+        "showDate": "1995-07-05",
+        "showYear": 1995,
+        "showExtension": "gd1995-07-05.sbd.larson.35170.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 14,
+        "tracks": [
+            {
+                "trackName": "Feel Like A Stranger",
+                "trackExtension": "gd95-07-05sbdd1t01",
+                "trackDuration": 667
+            },
+            {
+                "trackName": "Peggy-O",
+                "trackExtension": "gd95-07-05sbdd1t02",
+                "trackDuration": 413
+            },
+            {
+                "trackName": "The Same Thing",
+                "trackExtension": "gd95-07-05sbdd1t03",
+                "trackDuration": 433
+            },
+            {
+                "trackName": "Loose Lucy",
+                "trackExtension": "gd95-07-05sbdd1t04",
+                "trackDuration": 492
+            },
+            {
+                "trackName": "Childhood's End",
+                "trackExtension": "gd95-07-05sbdd1t05",
+                "trackDuration": 291
+            },
+            {
+                "trackName": "El Paso",
+                "trackExtension": "gd95-07-05sbdd1t06",
+                "trackDuration": 337
+            },
+            {
+                "trackName": "Don't Ease Me In",
+                "trackExtension": "gd95-07-05sbdd1t07",
+                "trackDuration": 179
+            },
+            {
+                "trackName": "Aiko Aiko",
+                "trackExtension": "gd95-07-05sbdd1t08",
+                "trackDuration": 595
+            },
+            {
+                "trackName": "Playing In The Band",
+                "trackExtension": "gd95-07-05sbdd1t09",
+                "trackDuration": 636
+            },
+            {
+                "trackName": "Crazy Fingers",
+                "trackExtension": "gd95-07-05sbdd1t10",
+                "trackDuration": 413
+            },
+            {
+                "trackName": "Corinna >",
+                "trackExtension": "gd95-07-05sbdd1t11",
+                "trackDuration": 341
+            },
+            {
+                "trackName": "Goin' Down The Road Feeling Bad >",
+                "trackExtension": "gd95-07-05sbdd2t03",
+                "trackDuration": 468
+            },
+            {
+                "trackName": "Throwing Stones >",
+                "trackExtension": "gd95-07-05sbdd2t04",
+                "trackDuration": 557
+            },
+            {
+                "trackName": "Not Fade Away",
+                "trackExtension": "gd95-07-05sbdd2t05",
+                "trackDuration": 492
+            }
+        ]
+    },
+    {
+        "showName": "The Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1995-05-21",
+        "showDate": "1995-05-21",
+        "showYear": 1995,
+        "showExtension": "gd1995-05-21.sbd.miller.114329.flac16",
+        "audioType": "flac",
+        "numberOfTracks": 16,
+        "tracks": [
+            {
+                "trackName": "Jack Straw",
+                "trackExtension": "gd95-05-21d1t01",
+                "trackDuration": 469
+            },
+            {
+                "trackName": "West L.A. Fadeaway",
+                "trackExtension": "gd95-05-21d1t02",
+                "trackDuration": 581
+            },
+            {
+                "trackName": "Little Red Rooster",
+                "trackExtension": "gd95-05-21d1t03",
+                "trackDuration": 503
+            },
+            {
+                "trackName": "Ramble On Rose",
+                "trackExtension": "gd95-05-21d1t04",
+                "trackDuration": 537
+            },
+            {
+                "trackName": "Just Like Tom Thumb's Blues",
+                "trackExtension": "gd95-05-21d1t05",
+                "trackDuration": 413
+            },
+            {
+                "trackName": "So Many Roads ->",
+                "trackExtension": "gd95-05-21d1t06",
+                "trackDuration": 603
+            },
+            {
+                "trackName": "Promised Land",
+                "trackExtension": "gd95-05-21d1t07",
+                "trackDuration": 277
+            },
+            {
+                "trackName": "Samson And Delilah",
+                "trackExtension": "gd95-05-21d2t01",
+                "trackDuration": 654
+            },
+            {
+                "trackName": "Unbroken Chain",
+                "trackExtension": "gd95-05-21d2t02",
+                "trackDuration": 386
+            },
+            {
+                "trackName": "Eyes Of The World ->",
+                "trackExtension": "gd95-05-21d2t03",
+                "trackDuration": 757
+            },
+            {
+                "trackName": "Corrina ->",
+                "trackExtension": "gd95-05-21d2t04",
+                "trackDuration": 824
+            },
+            {
+                "trackName": "Spanish Jam ->",
+                "trackExtension": "gd95-05-21d3t02",
+                "trackDuration": 213
+            },
+            {
+                "trackName": "The Other One ->",
+                "trackExtension": "gd95-05-21d3t03",
+                "trackDuration": 448
+            },
+            {
+                "trackName": "Days Between ->",
+                "trackExtension": "gd95-05-21d3t04",
+                "trackDuration": 674
+            },
+            {
+                "trackName": "Sugar Magnolia",
+                "trackExtension": "gd95-05-21d3t05",
+                "trackDuration": 584
+            },
+            {
+                "trackName": "Liberty",
+                "trackExtension": "gd95-05-21d3t06",
+                "trackDuration": 345
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at Memorial Stadium on 1995-05-26",
+        "showDate": "1995-05-26",
+        "showYear": 1995,
+        "showExtension": "gd1995-05-26.sbd.popi.8371.shnf",
+        "audioType": "shn",
+        "numberOfTracks": 14,
+        "tracks": [
+            {
+                "trackName": "Help On The Way>Slipknot!>",
+                "trackExtension": "gd95-05-26d1t01",
+                "trackDuration": 595
+            },
+            {
+                "trackName": "Franklin's Tower",
+                "trackExtension": "gd95-05-26d1t02",
+                "trackDuration": 697
+            },
+            {
+                "trackName": "The Same Thing",
+                "trackExtension": "gd95-05-26d1t03",
+                "trackDuration": 446
+            },
+            {
+                "trackName": "Loose Lucy",
+                "trackExtension": "gd95-05-26d1t04",
+                "trackDuration": 473
+            },
+            {
+                "trackName": "Eternity",
+                "trackExtension": "gd95-05-26d1t05",
+                "trackDuration": 660
+            },
+            {
+                "trackName": "Don't Ease Me In",
+                "trackExtension": "gd95-05-26d1t06",
+                "trackDuration": 198
+            },
+            {
+                "trackName": "Scarlet Begonias>",
+                "trackExtension": "gd95-05-26d1t07",
+                "trackDuration": 650
+            },
+            {
+                "trackName": "Fire On The Mountain",
+                "trackExtension": "gd95-05-26d1t08",
+                "trackDuration": 1025
+            },
+            {
+                "trackName": "Playin' In The Band >",
+                "trackExtension": "gd95-05-26d2t01",
+                "trackDuration": 450
+            },
+            {
+                "trackName": "Uncle John's Band >",
+                "trackExtension": "gd95-05-26d2t02",
+                "trackDuration": 618
+            },
+            {
+                "trackName": "Easy Answers >",
+                "trackExtension": "gd95-05-26d2t05",
+                "trackDuration": 430
+            },
+            {
+                "trackName": "Stella Blue >",
+                "trackExtension": "gd95-05-26d2t06",
+                "trackDuration": 551
+            },
+            {
+                "trackName": "Good Lovin'",
+                "trackExtension": "gd95-05-26d2t07",
+                "trackDuration": 408
+            },
+            {
+                "trackName": "Liberty",
+                "trackExtension": "gd95-05-26d2t08",
+                "trackDuration": 387
+            }
+        ]
+    },
+    {
+        "showName": "Grateful Dead Live at The Pyramid on 1995-04-01",
+        "showDate": "1995-04-01",
+        "showYear": 1995,
+        "showExtension": "gd1995-04-01.sbd.unknown.581.shnf",
+        "audioType": "shn",
+        "numberOfTracks": 15,
+        "tracks": [
+            {
+                "trackName": "Hell In A Bucket",
+                "trackExtension": "gd95-4-1d1t01",
+                "trackDuration": 391
+            },
+            {
+                "trackName": "Candyman",
+                "trackExtension": "gd95-4-1d1t02",
+                "trackDuration": 394
+            },
+            {
+                "trackName": "Take Me to The River",
+                "trackExtension": "gd95-4-1d1t03",
+                "trackDuration": 250
+            },
+            {
+                "trackName": "Lazy River Road",
+                "trackExtension": "gd95-4-1d1t04",
+                "trackDuration": 463
+            },
+            {
+                "trackName": "When I Paint My Masterpiece",
+                "trackExtension": "gd95-4-1d1t05",
+                "trackDuration": 317
+            },
+            {
+                "trackName": "Childhood's End",
+                "trackExtension": "gd95-4-1d1t06",
+                "trackDuration": 256
+            },
+            {
+                "trackName": "Deal",
+                "trackExtension": "gd95-4-1d1t07",
+                "trackDuration": 561
+            },
+            {
+                "trackName": "Foolish Heart",
+                "trackExtension": "gd95-4-1d1t08",
+                "trackDuration": 833
+            },
+            {
+                "trackName": "Long Way To Go",
+                "trackExtension": "gd95-4-1d1t09",
+                "trackDuration": 377
+            },
+            {
+                "trackName": "Saint Of Circumstance >",
+                "trackExtension": "gd95-4-1d2t01",
+                "trackDuration": 488
+            },
+            {
+                "trackName": "Eyes Of The World >",
+                "trackExtension": "gd95-4-1d2t02",
+                "trackDuration": 659
+            },
+            {
+                "trackName": "The Wheel >",
+                "trackExtension": "gd95-4-1d2t04",
+                "trackDuration": 362
+            },
+            {
+                "trackName": "All Along The Watchtower >",
+                "trackExtension": "gd95-4-1d2t05",
+                "trackDuration": 334
+            },
+            {
+                "trackName": "Standing On The Moon",
+                "trackExtension": "gd95-4-1d2t06",
+                "trackDuration": 629
+            },
+            {
+                "trackName": "One More Saturday Night",
+                "trackExtension": "gd95-4-1d2t07",
+                "trackDuration": 288
             }
         ]
     }
