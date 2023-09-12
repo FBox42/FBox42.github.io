@@ -105,7 +105,7 @@ function displayResultPage() {
     resultsDiv.style.display = "none";
     mainDiv.style.display = "none";
 
-    yearSlider.disabled = true;
+    slider.disabled = true;
     confirmButton.disabled = true;
     nextRoundButton.style.display = "none";
 
@@ -185,6 +185,67 @@ function addRound(showName, trackName, userGuess, actualYear, userScore) {
 document.addEventListener("DOMContentLoaded", () => {
     let loadedShow; // Declare a variable to hold the show object
 
+    var slider = d3
+    .sliderHorizontal()
+    .min(1965)
+    .max(1995)
+    .step(1)
+    .width(1635)
+    .ticks(30)
+    .displayValue(false)
+    .default(1980)
+    .tickFormat(d3.format('.0f'))
+    .on('onchange', (val) => {
+      d3.select('#selectedYear').text(val);
+    });
+
+  d3.select('#slider')
+    .append('svg')
+    .attr('width', 1700)
+    .attr('height', 120)
+    .append('g')
+    .attr('transform', 'translate(30,30)')
+    .call(slider);
+
+    var svgElement = document.querySelector('.axis'); // Use '.axis' for class or '#yourId' for ID
+
+
+    // Update the transform attribute
+    svgElement.setAttribute('transform', 'translate(0,14)');
+
+
+    var tickElements = document.querySelectorAll('.tick');
+
+    // Loop through the tick elements and change the text of every fifth tick to "A"
+    for (var i = 0; i < tickElements.length; i++) {
+        if (i % 5 !== 0) {
+            tickElements[i].querySelector('text').textContent = "";
+        }
+    }
+
+    var lines = document.querySelectorAll('line[y2]');
+
+    // Loop through each 'line' element and set 'y2' attribute to 11
+    for (var i = 0; i < lines.length; i++) {
+        if (i % 5 !== 0) {
+            lines[i].setAttribute('y2', '14');
+        }
+        else{
+            lines[i].setAttribute('y2', '27');
+
+        }
+    }
+
+    // Get all the 'text' elements with the attribute 'dy'
+    var texts = document.querySelectorAll('text[dy]');
+
+    // Loop through each 'text' element and set 'dy' attribute to 2em
+    for (var i = 0; i < texts.length; i++) {
+    texts[i].setAttribute('dy', '1.7em');
+    }
+
+    console.log(tickElements)
+
 
 
 
@@ -207,14 +268,6 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(handleError);
 
-    const yearSlider = document.getElementById("yearSlider");
-    const selectedYear = document.getElementById("selectedYear");
-
-
-    yearSlider.addEventListener("input", () => {
-        const year = yearSlider.value;
-        selectedYear.textContent = year;
-    });
 
     var confirmButton = document.getElementById("confirmButton");
     var resultsDiv = document.querySelector(".results");
@@ -246,7 +299,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     confirmButton.addEventListener("click", function () {
         resultsDiv.style.display = "block";
-        yearSlider.disabled = true;
+        slider.disabled = true;
         confirmButton.disabled = true;
         userGuessElement.innerHTML = "Your guess: " + selectedYear.textContent + "&nbsp;&nbsp;&nbsp;&nbsp;Actual year: " + loadedShow.showYear;
         console.log(userGuessElement.textContent);
@@ -302,9 +355,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Reset UI elements
             resultsDiv.style.display = "none";
-            yearSlider.disabled = false;
+            slider.disabled = false;
             confirmButton.disabled = false;
-            yearSlider.value = 1980; // Reset slider value
+            slider.value = 1980; // Reset slider value
             selectedYear.textContent = "1980"; // Reset selectedYear text
 
             iframe.style.display = "none";
