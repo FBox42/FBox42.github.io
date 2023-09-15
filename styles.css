@@ -225,6 +225,8 @@ body {
 
 iframe#random-iframe {
     height: 100px;
+    display: flex;
+    width: 100%;
 }
 
 .results {
@@ -304,7 +306,9 @@ iframe#random-iframe {
     overflow: hidden;
     background-color: black;
     padding: 20px 10px;
+    width: 100%;
 }
+
 
 .header a {
     float: left;

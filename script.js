@@ -184,67 +184,202 @@ function addRound(showName, trackName, userGuess, actualYear, userScore) {
 
 document.addEventListener("DOMContentLoaded", () => {
     let loadedShow; // Declare a variable to hold the show object
+    /*
+        var slider = d3
+        .sliderHorizontal()
+        .min(1965)
+        .max(1995)
+        .step(1)
+        .width(1235)
+        .ticks(30)
+        .displayValue(false)
+        .default(1980)
+        .tickFormat(d3.format('.0f'))
+        .on('onchange', (val) => {
+          d3.select('#selectedYear').text(val);
+        });
+    
+      d3.select('#slider')
+        .append('svg')
+        .attr('width', 1300)
+        .attr('height', 120)
+        .append('g')
+        .attr('transform', 'translate(30,30)')
+        .call(slider);
+    
+        */
 
+
+
+
+
+
+    /*
+
+    // Calculate the width as a percentage of the screen width
+    const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    const sliderWidthPercentage = 75; // You can adjust this percentage as needed
+    const sliderWidth = (screenWidth * sliderWidthPercentage) / 95;
+
+    // Create the slider with the calculated width
     var slider = d3
-    .sliderHorizontal()
-    .min(1965)
-    .max(1995)
-    .step(1)
-    .width(1635)
-    .ticks(30)
-    .displayValue(false)
-    .default(1980)
-    .tickFormat(d3.format('.0f'))
-    .on('onchange', (val) => {
-      d3.select('#selectedYear').text(val);
-    });
+        .sliderHorizontal()
+        .min(1965)
+        .max(1995)
+        .step(1)
+        .width(sliderWidth)
+        .ticks(30)
+        .displayValue(false)
+        .default(1980)
+        .tickFormat(d3.format('.0f'))
+        .on('onchange', (val) => {
+            d3.select('#selectedYear').text(val);
+        });
 
-  d3.select('#slider')
-    .append('svg')
-    .attr('width', 1700)
-    .attr('height', 120)
-    .append('g')
-    .attr('transform', 'translate(30,30)')
-    .call(slider);
-
-    var svgElement = document.querySelector('.axis'); // Use '.axis' for class or '#yourId' for ID
-
-
-    // Update the transform attribute
-    svgElement.setAttribute('transform', 'translate(0,14)');
+    // Append the slider to the SVG
+    d3.select('#slider')
+        .append('svg')
+        .attr('width', sliderWidth + 70) // Add extra padding as needed
+        .attr('height', 120)
+        .append('g')
+        .attr('transform', 'translate(30,30)')
+        .call(slider);
 
 
-    var tickElements = document.querySelectorAll('.tick');
+        */
 
-    // Loop through the tick elements and change the text of every fifth tick to "A"
-    for (var i = 0; i < tickElements.length; i++) {
-        if (i % 5 !== 0) {
-            tickElements[i].querySelector('text').textContent = "";
-        }
-    }
 
-    var lines = document.querySelectorAll('line[y2]');
+        var sliderValue = null; // or any other value
 
-    // Loop through each 'line' element and set 'y2' attribute to 11
-    for (var i = 0; i < lines.length; i++) {
-        if (i % 5 !== 0) {
-            lines[i].setAttribute('y2', '14');
+    // Function to update the slider width based on screen size
+    function updateSliderWidth() {
+
+        d3.select('#slider svg').remove();
+
+
+        const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        const sliderWidthPercentage = 75; // You can adjust this percentage as needed
+        const sliderWidth = (screenWidth * sliderWidthPercentage) / 95;
+
+        if (sliderValue === null){
+            displayValue = 1980;
         }
         else{
-            lines[i].setAttribute('y2', '27');
-
+            displayValue = sliderValue;
         }
+
+
+        var slider = d3
+            .sliderHorizontal()
+            .min(1965)
+            .max(1995)
+            .step(1)
+            .width(sliderWidth)
+            .ticks(30)
+            .displayValue(false)
+            .default(1980)
+            .tickFormat(d3.format('.0f'))
+            .silentValue(displayValue)
+            .on('onchange', (val) => {
+                d3.select('#selectedYear').text(val);
+                sliderValue = val; // Update the variable with the slider value
+
+
+            });
+
+        // Append the slider to the SVG
+        d3.select('#slider')
+            .append('svg')
+            .attr('width', sliderWidth + 70) // Add extra padding as needed
+            .attr('height', 120)
+            .append('g')
+            .attr('transform', 'translate(30,30)')
+            .call(slider);
+
+
+
+        var svgElement = document.querySelector('.axis'); // Use '.axis' for class or '#yourId' for ID
+
+
+        // Update the transform attribute
+        svgElement.setAttribute('transform', 'translate(0,14)');
+
+
+
+        var tickElements = document.querySelectorAll('.tick');
+
+        // Loop through the tick elements and change the text of every fifth tick to "A"
+        for (var i = 0; i < tickElements.length; i++) {
+            if (i % 5 !== 0) {
+                tickElements[i].querySelector('text').textContent = "";
+            }
+        }
+
+        var lines = document.querySelectorAll('line[y2]');
+
+        // Loop through each 'line' element and set 'y2' attribute to 11
+        for (var i = 0; i < lines.length; i++) {
+            if (i % 5 !== 0) {
+                lines[i].setAttribute('y2', '14');
+            }
+            else {
+                lines[i].setAttribute('y2', '27');
+
+            }
+        }
+
+        // Get all the 'text' elements with the attribute 'dy'
+        var texts = document.querySelectorAll('text[dy]');
+
+        // Loop through each 'text' element and set 'dy' attribute to 2em
+        for (var i = 0; i < texts.length; i++) {
+            texts[i].setAttribute('dy', '1.7em');
+        }
+
     }
 
-    // Get all the 'text' elements with the attribute 'dy'
-    var texts = document.querySelectorAll('text[dy]');
+    /*
 
-    // Loop through each 'text' element and set 'dy' attribute to 2em
-    for (var i = 0; i < texts.length; i++) {
-    texts[i].setAttribute('dy', '1.7em');
-    }
+    const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    const sliderWidthPercentage = 75; // You can adjust this percentage as needed
+    const sliderWidth = (screenWidth * sliderWidthPercentage) / 95;
 
-    console.log(tickElements)
+    // Create the slider with an initial width
+    var slider = d3
+        .sliderHorizontal()
+        .min(1965)
+        .max(1995)
+        .step(1)
+        .width(sliderWidth)
+        .ticks(30)
+        .displayValue(false)
+        .default(1980)
+        .tickFormat(d3.format('.0f'))
+        .on('onchange', (val) => {
+            d3.select('#selectedYear').text(val);
+        });
+
+    // Append the slider to the SVG
+    d3.select('#slider')
+        .append('svg')
+        .attr('width', sliderWidth + 70) // Add extra padding as needed
+        .attr('height', 120)
+        .append('g')
+        .attr('transform', 'translate(30,30)')
+        .call(slider);
+
+
+        */
+    // Initial update of the slider width
+    updateSliderWidth();
+
+
+    // Add a window resize event listener to update the slider width
+    window.addEventListener('resize', updateSliderWidth);
+
+
+
+
 
 
 
@@ -279,6 +414,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const roundHeader = document.getElementById("roundHeader");
 
+    const sliderDiv = document.getElementById("slider")
+
     var iframe = document.getElementById('random-iframe');
     iframe.style.display = 'none';
 
@@ -300,6 +437,10 @@ document.addEventListener("DOMContentLoaded", () => {
     confirmButton.addEventListener("click", function () {
         resultsDiv.style.display = "block";
         slider.disabled = true;
+
+
+        sliderDiv.style.pointerEvents = "none";
+
         confirmButton.disabled = true;
         userGuessElement.innerHTML = "Your guess: " + selectedYear.textContent + "&nbsp;&nbsp;&nbsp;&nbsp;Actual year: " + loadedShow.showYear;
         console.log(userGuessElement.textContent);
@@ -355,10 +496,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Reset UI elements
             resultsDiv.style.display = "none";
-            slider.disabled = false;
             confirmButton.disabled = false;
-            slider.value = 1980; // Reset slider value
+
+            sliderValue = 1980;
+
+
             selectedYear.textContent = "1980"; // Reset selectedYear text
+            updateSliderWidth();
+
+            sliderDiv.style.pointerEvents = "";
 
             iframe.style.display = "none";
             loadingMessage.style.display = "revert";
