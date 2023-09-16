@@ -5,16 +5,18 @@ function loadShows() {
         .then(shows => {
             const maximum = shows.length;
             const randomInteger = Math.floor(Math.random() * maximum);
-            console.log("Show index: " + randomInteger);
 
             return shows[randomInteger];
         });
 }
 
+
 function loadRandomTrack(show) {
     const randomIndex = Math.floor(Math.random() * show.tracks.length);
+
     return show.tracks[randomIndex];
 }
+
 
 function displayShowInfo(show) {
     fullShowLink = "https://archive.org/details/" + show.showExtension
@@ -22,19 +24,19 @@ function displayShowInfo(show) {
 
 }
 
+
 function getShowHTML(show) {
     fullShowLink = "https://archive.org/details/" + show.showExtension
     fullHTML = `<a href="${fullShowLink}" target="_blank">${show.showName}</a>`;
 
     return fullHTML;
-
 }
 
 
 function displayTrackInfo(track, show) {
-    //document.getElementById('trackDisplay').innerHTML = track.trackName + "&nbsp;&nbsp;&nbsp;(" + show.showDate + ")";
     document.getElementById('trackDisplay').innerHTML = track.trackName;
 }
+
 
 function loadAndDisplayIframe(show, track) {
     const randomIframe = document.getElementById('random-iframe');
@@ -84,7 +86,6 @@ function calculateScore(userYear, actualYear) {
             userScore = 0
         }
 
-        console.log(userScore);
     }
 
     return userScore;
@@ -98,15 +99,10 @@ function displayResultPage() {
     var mainDiv = document.getElementById("main-content");
 
 
-
-
-
     // Hide the content by changing the display property to "none"
     resultsDiv.style.display = "none";
     mainDiv.style.display = "none";
 
-    slider.disabled = true;
-    confirmButton.disabled = true;
     nextRoundButton.style.display = "none";
 
     // SHOW RESULT PAGE ELEMENTS
@@ -138,22 +134,17 @@ function displayResultPage() {
     </tr>
   `;
     }
+
+
     tableHTML += `<tr> 
     <td id="trackColumn">Total Score:</td>
     <td></td><td></td>
     <td>${totalUserScore}/25000</td> </tr>`;
     tableHTML += '</table>';
 
-    //var tableElement = document.createElement('div');
-    //tableElement.innerHTML = tableHTML;
 
-    // Select the parent element where you want to append the table
     var parentElement = document.getElementById('tableContainer');
     parentElement.innerHTML = tableHTML;
-
-
-    // Append the table element to the parent element
-    //parentElement.appendChild(tableElement);
 
 
     document.getElementById("homeButton").addEventListener("click", function () {
@@ -183,91 +174,34 @@ function addRound(showName, trackName, userGuess, actualYear, userScore) {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    let loadedShow; // Declare a variable to hold the show object
-    /*
-        var slider = d3
-        .sliderHorizontal()
-        .min(1965)
-        .max(1995)
-        .step(1)
-        .width(1235)
-        .ticks(30)
-        .displayValue(false)
-        .default(1980)
-        .tickFormat(d3.format('.0f'))
-        .on('onchange', (val) => {
-          d3.select('#selectedYear').text(val);
-        });
-    
-      d3.select('#slider')
-        .append('svg')
-        .attr('width', 1300)
-        .attr('height', 120)
-        .append('g')
-        .attr('transform', 'translate(30,30)')
-        .call(slider);
-    
-        */
+    let loadedShow;
 
 
-
-
-
-
-    /*
-
-    // Calculate the width as a percentage of the screen width
-    const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    const sliderWidthPercentage = 75; // You can adjust this percentage as needed
-    const sliderWidth = (screenWidth * sliderWidthPercentage) / 95;
-
-    // Create the slider with the calculated width
-    var slider = d3
-        .sliderHorizontal()
-        .min(1965)
-        .max(1995)
-        .step(1)
-        .width(sliderWidth)
-        .ticks(30)
-        .displayValue(false)
-        .default(1980)
-        .tickFormat(d3.format('.0f'))
-        .on('onchange', (val) => {
-            d3.select('#selectedYear').text(val);
-        });
-
-    // Append the slider to the SVG
-    d3.select('#slider')
-        .append('svg')
-        .attr('width', sliderWidth + 70) // Add extra padding as needed
-        .attr('height', 120)
-        .append('g')
-        .attr('transform', 'translate(30,30)')
-        .call(slider);
-
-
-        */
-
-
-        var sliderValue = null; // or any other value
+    var sliderValue = null; // or any other value
+    var confirmButton = null
 
     // Function to update the slider width based on screen size
     function updateSliderWidth() {
 
         d3.select('#slider svg').remove();
 
+        var confirmButton = document.getElementById("confirmButton");
+
+
+
 
         const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         const sliderWidthPercentage = 75; // You can adjust this percentage as needed
         const sliderWidth = (screenWidth * sliderWidthPercentage) / 95;
 
-        if (sliderValue === null){
+        if (sliderValue === null) {
             displayValue = 1980;
         }
-        else{
+        else {
             displayValue = sliderValue;
         }
 
+        
 
         var slider = d3
             .sliderHorizontal()
@@ -297,13 +231,21 @@ document.addEventListener("DOMContentLoaded", () => {
             .call(slider);
 
 
-
         var svgElement = document.querySelector('.axis'); // Use '.axis' for class or '#yourId' for ID
 
 
         // Update the transform attribute
         svgElement.setAttribute('transform', 'translate(0,14)');
 
+        var sliderHandle = document.querySelector("#slider > svg > g > g.slider > g > path")
+
+
+        if (sliderHandle.style.fill == "grey") {
+        }
+
+        if (confirmButton.disabled !== false) {
+            sliderHandle.style.fill = "grey";
+        }
 
 
         var tickElements = document.querySelectorAll('.tick');
@@ -338,50 +280,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    /*
 
-    const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    const sliderWidthPercentage = 75; // You can adjust this percentage as needed
-    const sliderWidth = (screenWidth * sliderWidthPercentage) / 95;
-
-    // Create the slider with an initial width
-    var slider = d3
-        .sliderHorizontal()
-        .min(1965)
-        .max(1995)
-        .step(1)
-        .width(sliderWidth)
-        .ticks(30)
-        .displayValue(false)
-        .default(1980)
-        .tickFormat(d3.format('.0f'))
-        .on('onchange', (val) => {
-            d3.select('#selectedYear').text(val);
-        });
-
-    // Append the slider to the SVG
-    d3.select('#slider')
-        .append('svg')
-        .attr('width', sliderWidth + 70) // Add extra padding as needed
-        .attr('height', 120)
-        .append('g')
-        .attr('transform', 'translate(30,30)')
-        .call(slider);
-
-
-        */
     // Initial update of the slider width
     updateSliderWidth();
 
 
     // Add a window resize event listener to update the slider width
     window.addEventListener('resize', updateSliderWidth);
-
-
-
-
-
-
 
 
     loadShows()
@@ -404,23 +309,22 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(handleError);
 
 
+    // Set all variables for need HTML elements
     var confirmButton = document.getElementById("confirmButton");
     var resultsDiv = document.querySelector(".results");
     const userGuessElement = document.getElementById("userGuess");
     const userScoreElement = document.getElementById("userScore");
     var nextRoundButton = document.getElementById("nextRoundButton");
     const loadingMessage = document.getElementById("loadingMessage");
-
-
     const roundHeader = document.getElementById("roundHeader");
-
     const sliderDiv = document.getElementById("slider")
-
     var iframe = document.getElementById('random-iframe');
+
+
     iframe.style.display = 'none';
 
 
-    // Add a load event listener to the iframe
+    // Add a load event listener to the iframe so that loading message is hidden when audio is loaded
     iframe.addEventListener('load', function () {
         console.log('Iframe is loaded.');
         loadingMessage.style.display = 'none';
@@ -432,40 +336,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-
     confirmButton.addEventListener("click", function () {
+
+        // Show results information
         resultsDiv.style.display = "block";
-        slider.disabled = true;
 
+        var sliderHandle = document.querySelector("#slider > svg > g > g.slider > g > path")
 
+        // Grey out slider handle and disable
+        sliderHandle.style.fill = "grey";
         sliderDiv.style.pointerEvents = "none";
 
+        // Disable confirmation button
         confirmButton.disabled = true;
+
+
+        // Display guess and actual year 
         userGuessElement.innerHTML = "Your guess: " + selectedYear.textContent + "&nbsp;&nbsp;&nbsp;&nbsp;Actual year: " + loadedShow.showYear;
-        console.log(userGuessElement.textContent);
 
+        // Calculate score + total score and then display
         userScore = calculateScore(selectedYear.textContent, loadedShow.showDate);
-
         totalUserScore = totalUserScore + userScore;
-
-        console.log("total user score: " + totalUserScore)
-
         userScoreElement.textContent = (userScore + "/5000");
 
+        // Get show and track from current round
         const showElement = document.getElementById("showDisplay");
         const trackElement = document.getElementById("trackDisplay");
 
-        //window.scrollTo(0, document.body.scrollHeight);
+
+        // Scroll page down to next round button (bottom of the page)
         nextRoundButton.scrollIntoView({ behavior: 'smooth' });
 
 
-
+        // Add round details to array for later results display
         addRound(showElement.innerHTML, trackElement.innerHTML, selectedYear.textContent, loadedShow.showYear, (userScore + "/5000"));
 
 
 
     });
+
+
 
     nextRoundButton.addEventListener("click", function () {
 
@@ -492,11 +402,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // LOAD NEXT ROUND
             console.log("Next round pressed");
-            //currentRound = currentRound + 1
+
 
             // Reset UI elements
             resultsDiv.style.display = "none";
             confirmButton.disabled = false;
+
 
             sliderValue = 1980;
 
