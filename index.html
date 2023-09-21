@@ -4,12 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Guess the year: Grateful Dead</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <script src="./d3.v7.js"></script>
+    <script src="./d3-simple-slider.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5RN4LLS01R"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5RN4LLS01R');
+    </script>
+    
 </head>
 
 <div class="header">
-    <script src="./d3.v7.js"></script>
-    <script src="./d3-simple-slider.js"></script>
     <a href="index.html" class="title">Guess the year: Grateful Dead</a>
     <div class="header-right">
         <a class="headerHome" href="#home">About</a>
@@ -32,22 +42,6 @@
         <button class="playButton" onclick='window.location.href = "game.html";''>Play Game</button>
 </div>
 
-<script>
-    function logScreenSize() {
-        // Get the viewport width and height
-        var viewportWidth = window.innerWidth;
-        var viewportHeight = window.innerHeight;
-
-        // Display the screen size in the console
-        console.log("Viewport Size: " + viewportWidth + "x" + viewportHeight);
-    }
-
-    // Attach the event listener to the window's resize event
-    window.addEventListener('resize', logScreenSize);
-
-    // Initial log when the page loads
-    logScreenSize();
-</script>
 
 </body>
 

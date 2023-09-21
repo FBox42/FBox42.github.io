@@ -41,8 +41,16 @@ function displayTrackInfo(track, show) {
 function loadAndDisplayIframe(show, track) {
     const randomIframe = document.getElementById('random-iframe');
     const audioType = show.audioType;
-    randomIframe.src = `https://archive.org/embed/${show.showExtension}/${track.trackExtension}.${audioType}`;
+
+    if (currentRound == 1) {
+        randomIframe.src = `https://archive.org/embed/${show.showExtension}/${track.trackExtension}.${audioType}`;
+    }
+    else {
+        randomIframe.src = `https://archive.org/embed/${show.showExtension}/${track.trackExtension}.${audioType}&autoplay=1`;
+    }
 }
+
+
 
 function handleError(error) {
     console.error('Error:', error);
@@ -201,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
             displayValue = sliderValue;
         }
 
-        
+
 
         var slider = d3
             .sliderHorizontal()
@@ -380,6 +388,11 @@ document.addEventListener("DOMContentLoaded", () => {
     nextRoundButton.addEventListener("click", function () {
 
         currentRound++;
+
+
+        // var iframe = document.querySelector("#random-iframe");
+
+        iframe.src = "";
 
 
         if (currentRound == 6) {
