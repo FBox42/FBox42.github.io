@@ -6,7 +6,7 @@
     <title>Guess the Grateful Year</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="game_show.js"></script>
     <script src="https://d3js.org/d3.v7.js"></script>
     <script src="https://unpkg.com/d3-simple-slider"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5RN4LLS01R"></script>
@@ -31,11 +31,16 @@
 
 
     <div class="main-body" id="main-content">
+        <div class="checkbox-container">
+            <input type="checkbox" id="showDetailsCheckbox">
+            <label for="showDetailsCheckbox">Display show details</label>
+        </div>
         <h2 id="roundHeader"></h2>
 
+
         <div class="embed">
-            <h2 id="loadingMessage">Loading Track...</h2>
-            <iframe id="random-iframe" width="1000" height="1000" frameborder="0" webkitallowfullscreen="true"
+            <h2 id="loadingMessage">Loading Show...</h2>
+            <iframe id="random-iframe" width="1000" height="300" frameborder="0" webkitallowfullscreen="true"
                 mozallowfullscreen="true" allowfullscreen></iframe>
         </div>
 
@@ -44,11 +49,11 @@
         <div class="search-container">
             <input type="text" id="search-input" placeholder="Search for a show...">
             <div class="results-container">
-            <table id="results-table">
-                <tbody id="results-body">
-                    <!-- Search results will be displayed here -->
-                </tbody>
-            </table>
+                <table id="results-table">
+                    <tbody id="results-body">
+                        <!-- Search results will be displayed here -->
+                    </tbody>
+                </table>
             </div>
         </div>
         <div id="slider"></div>
@@ -61,10 +66,9 @@
 
     <div class="results" id="resultsDiv">
         <br>
-        <h3 id="userGuess"></h3>
         <h3 id="userScore"></h3>
+        <h3 id="userGuess"></h3>
         <h3 id="showDisplay"></h3>
-        <h3 id="trackDisplay"></h3>
         <br><br>
         <button class="button" id="nextRoundButton">Next Round</button>
     </div>

@@ -66,8 +66,8 @@ table {
 
 }
 
-path.handle{
-    transform: Scale3d(1.4,1.4,1);
+path.handle {
+    transform: Scale3d(1.4, 1.4, 1);
 }
 
 #homeButton {
@@ -76,6 +76,21 @@ path.handle{
     margin-left: 50px;
     height: 70px;
 }
+
+#results-table {
+    font-size: 70%;
+    margin-top: 10px;
+    display: block;
+
+}
+
+#slider {
+    margin-inline-start: 0.5%;
+}
+
+
+
+
 
 
 
@@ -231,13 +246,13 @@ iframe#random-iframe {
 
 .results {
     display: none;
-    margin-top: 15px;
+    margin-top: -25px;
 }
 
 #showDisplay a {
     color: black;
     text-decoration: underline;
-    font-size: larger;
+    font-size: x-large;
 }
 
 #trackDisplay {
@@ -253,6 +268,7 @@ iframe#random-iframe {
 
 #showDisplay {
     margin-top: 42px;
+    font-size: x-large;
 
 }
 
@@ -265,13 +281,15 @@ iframe#random-iframe {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     border-radius: 4px;
     font-family: Georgia, serif;
     font-weight: bolder;
+    margin-inline-start: 0.5%;
+    margin-block-end: 50px;
+
 }
 
 
@@ -288,7 +306,7 @@ iframe#random-iframe {
 
 
 #roundHeader {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 #userScore {
@@ -347,4 +365,325 @@ iframe#random-iframe {
     font-family: 'Storybook', sans-serif;
     font-size: 30px;
     margin-top: 100px;
+}
+
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+    max-height: 800px;
+    /* Set a fixed height for the results container */
+    height: 400px;
+    width: 45%;
+    display: inline-table;
+    font-size: 20px;
+}
+
+.results-container {
+    max-height: 335px;
+    /* Set a fixed height for the results container */
+    overflow-y: auto;
+    /* Enable vertical scrolling if content overflows */
+
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#results-body {
+    display: inline-table;
+    width: inherit;
+}
+
+#results-table {
+    display: grid;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+button#openButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    /* Increase the width to make the pop-up bigger */
+    height: 81%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 3px 1000px #999;
+}
+
+.checkbox-container {
+    text-align: center;
+    margin-bottom: -100px;
+    float: right;
+    margin-right: 40px;
+
+}
+
+.popup-content {
+    padding: 10px;
+    max-height: 96%;
+    overflow-y: auto;
+}
+
+.radioButton {
+    align-items: center;
+    display: grid;
+}
+
+.guessSelectImg {
+    align-items: center;
+    display: grid;
+}
+
+@supports (-webkit-fill-available: initial) {
+
+    /* If supported, override max-height with -webkit-fill-available */
+    .popup-content {
+        max-height: -webkit-fill-available;
+    }
+}
+
+/* Display the pop-up when active */
+.popup.active {
+    display: block;
+}
+
+.popupTitle {
+    font-family: 'Storybook';
+    font-size: 20px;
+}
+
+.homePlayButton {
+    padding: 10px 20px;
+    background-color: #22378a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Storybook', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.indexTrackSlider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.indexTrackSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #22378a;
+    cursor: pointer;
+}
+
+.indexTrackSlider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #22378a;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .popup {
+        width: 90%;
+        /* Adjust the width for smaller screens */
+        height: 90%;
+        /* Adjust the height for smaller screens */
+    }
+
+    .homePlayButton {
+        height: auto;
+        /* Allow button height to adapt */
+        width: 60%;
+        /* Adjust button width for smaller screens */
+    }
+
+    .indexTrackSlider {
+        width: 100%;
+        /* Make the slider full-width on smaller screens */
+    }
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    /* Change the color of the close button */
+    width: 40px;
+    /* Equal width and height to create a perfect circle */
+    height: 40px;
+    border-radius: 50%;
+    /* Create a circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition */
+}
+
+.close-button:hover {
+    background-color: #ccc;
+    /* Background color on hover */
+}
+
+.close-button::before {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+}
+
+/* Display the pop-up when active */
+.popup.active {
+    display: block;
+}
+
+.guessFormatContainer {
+    display: flex;
+    justify-content: space-evenly;
+    /* Images will be side by side */
+    align-items: center;
+    /* Vertically center the images */
+}
+
+/* Add some spacing between images if needed */
+.guessFormatContainer img {
+    width: 80%;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    /* Adjust the margin as needed */
+}
+
+
+/* Style the captions */
+.image-item p {
+    margin: 10px 0;
+}
+
+/* Style the radio buttons */
+.image-item input[type="radio"] {
+    margin: 15px 60px;
+    display: inline-flex;
+}
+
+
+.singleShowCaption {
+    /* Adjust padding as needed */
+    padding: 10px;
+
+    /* Set the background color of the <p> element */
+    transition: box-shadow 0.3s ease-in-out;
+    /* Add a smooth transition effect to the box-shadow property */
+}
+
+.singleYearCaption {
+    /* Adjust padding as needed */
+    padding: 10px;
+
+    /* Set the background color of the <p> element */
+    transition: box-shadow 0.3s ease-in-out;
+    /* Add a smooth transition effect to the box-shadow property */
+}
+
+.radioButton {
+    accent-color: #22378a;
+}
+
+
+#singleYearContainer:hover .singleYearCaption {
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+#singleShowContainer:hover .singleShowCaption {
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+#selectedShowText {
+    font-size: larger;
+}
+
+.checkboxContainer input[type="checkbox"] {
+    /* Change the size of the checkbox */
+    width: 26px;
+    /* You can adjust the width */
+    height: 26px;
+    /* You can adjust the height */
+    accent-color: #22378a;
+}
+
+.checkboxContainer .checkmark {
+    /* Change the size of the checkmark inside the checkbox */
+    width: 28px;
+    /* You can adjust the width */
+    height: 28px;
+    /* You can adjust the height */
+}
+
+
+#results-body tr:first-child {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+#results-body tr:last-child {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }

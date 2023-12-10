@@ -2,6 +2,7 @@ const showData = {};
 let selectedShow;
 let sliderHandle;
 let searchInput;
+let randomIframe;
 
 function loadShows() {
 
@@ -92,9 +93,11 @@ function performSearch() {
                 selectedShow = this.textContent;
 
                 // You can now use the selectedText variable as needed
-                console.log("Selected Show: " + selectedShow);
 
                 selectedShowText.textContent = "Selected show: " + selectedShow;
+
+                selectedShowText.scrollIntoView({ behavior: 'smooth' });
+
 
                 searchResults.style.display = "none"
                 console.log("here")
@@ -135,12 +138,11 @@ function loadRandomTrack(show) {
 function displayShowInfo(show) {
     fullShowLink = "https://archive.org/details/" + show.showExtension
     if (guessFormat == "YS") {
-        document.getElementById('showDisplay').innerHTML = `<a href="${fullShowLink}" target="_blank">${show.showName}</a>`;
+        document.getElementById('showDisplay').innerHTML = `Show: <br><a href="${fullShowLink}" target="_blank">${show.showName}</a>`;
     }
-    else {
+    else{
         document.getElementById('showDisplay').innerHTML = `Correct show: <br><a href="${fullShowLink}" target="_blank">${show.showName}</a>`;
     }
-
 }
 
 
@@ -152,20 +154,53 @@ function getShowHTML(show) {
 }
 
 
-function displayTrackInfo(track, show) {
-    document.getElementById('trackDisplay').innerHTML = track.trackName;
-}
 
 
 function loadAndDisplayIframe(show, track) {
-    const randomIframe = document.getElementById('random-iframe');
-    const audioType = show.audioType;
+    randomIframe = document.getElementById('random-iframe');
 
-    randomIframe.src = `https://archive.org/embed/${show.showExtension}/${track.trackExtension}.${audioType}`;
+    if (showDetailsHidden == "true") {
+        randomIframe.src = `https://archive.org/embed/${show.showExtension}&playlist=1&list_height=0`;
+    }
+    else {
+        randomIframe.src = `https://archive.org/embed/${show.showExtension}&playlist=1&list_height=295`;
+    }
 
+    if (showDetailsHidden == "false") {
+        randomIframe.style.height = "300px";
+    }
+}
+
+function hideShowDetails() {
+
+    randomIframe.style.height = "100px"
+
+
+    var src = randomIframe.src;
+
+    let updatedSrc = src.replace(/list_height=295/, 'list_height=0');
+    randomIframe.src = updatedSrc;
+
+
+    showDetailsHidden = "true"
 
 }
 
+function showShowDetails() {
+
+    var src = randomIframe.src;
+
+    let updatedSrc = src.replace(/list_height=0/, 'list_height=295');
+
+
+    // Update the src attribute of the randomiframe element
+    randomIframe.src = updatedSrc;
+
+    randomIframe.style.height = "300px";
+
+
+    showDetailsHidden = "false"
+}
 
 
 function handleError(error) {
@@ -272,69 +307,65 @@ function displayResultPage() {
     const maxPoints = (totalRounds * 5000)
     finalScoreElement.textContent = totalUserScore + "/" + maxPoints;
 
-    let tableHTML
+    let tableHTML;
+
 
     if (guessFormat == "YS") {
-
         tableHTML = `
-    <table>
-    <tr>
-        <th id="trackColumn">Track</th>
-        <th>Your guess</th>
-        <th>Actual Year</th>
-        <th>Score</th>
-    </tr>
-    `;
+        <table>
+        <tr>
+            <th id="trackColumn">Show</th>
+            <th>Your guess</th>
+            <th>Actual Year</th>
+            <th>Score</th>
+        </tr>
+        `;
 
         for (let i = 0; i < rounds.length; i++) {
             const [showName, trackName, userGuess, actualYear, userScore] = rounds[i];
             tableHTML += `
-        <tr>
-        <td id="trackColumn">${showName}<br>${trackName}</td>
-        <td>${userGuess}</td>
-        <td>${actualYear}</td>
-        <td>${userScore}</td>
-        </tr>
-    `;
+    <tr>
+      <td id="trackColumn">${showName}</td>
+      <td>${userGuess}</td>
+      <td>${actualYear}</td>
+      <td>${userScore}</td>
+    </tr>
+  `;
         }
 
         tableHTML += `<tr> 
     <td id="trackColumn">Total Score:</td>
-    <td></td><td></td>
-    <td>${totalUserScore}/${maxPoints}</td> </tr>`;
+    <td></td><td>
+    <td>${totalUserScore}/${maxPoints} </tr>`;
         tableHTML += '</table>';
-
     }
     else {
 
         tableHTML = `
-    <table>
-    <tr>
-        <th id="trackColumn">Track</th>
-        <th>Your guess</th>
-        <th>Score</th>
-    </tr>
-    `;
+        <table>
+        <tr>
+            <th id="trackColumn">Show</th>
+            <th>Your guess</th>
+            <th>Score</th>
+        </tr>
+        `;
 
         for (let i = 0; i < rounds.length; i++) {
-            const [showName, trackName, userGuess, actualYear, userScore] = rounds[i];
+            const [showName, userGuess, userScore] = rounds[i];
             tableHTML += `
-            <tr>
-            <td id="trackColumn">${showName}<br>${trackName}</td>
-            <td>${userGuess}</td>
-            <td>${userScore}</td>
-            </tr>
-            `;
+    <tr>
+      <td id="trackColumn">${showName}</td>
+      <td>${userGuess}</td>
+      <td>${userScore}</td>
+    </tr>
+  `;
         }
 
         tableHTML += `<tr> 
-            <td id="trackColumn">Total Score:</td>
-            <td></td><td>
-            <td>${totalUserScore}/${maxPoints}</tr>`;
+    <td id="trackColumn">Total Score:</td>
+    <td></td></td>
+    <td>${totalUserScore}/${maxPoints}</tr>`;
         tableHTML += '</table>';
-
-
-
 
 
 
@@ -342,6 +373,8 @@ function displayResultPage() {
 
 
 
+
+    console.log(rounds)
 
 
     var parentElement = document.getElementById('tableContainer');
@@ -376,6 +409,8 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
 var guessFormat = urlParams.get('Format')
+var showDetailsHidden = urlParams.get('detailsHidden')
+
 console.log(guessFormat)
 var totalRounds = parseInt(urlParams.get('Rounds'));
 
@@ -384,9 +419,15 @@ if (guessFormat !== "YS" && guessFormat !== "ES") {
     guessFormat = "YS"
 }
 
+if (showDetailsHidden !== "true" && showDetailsHidden !== "false") {
+    showDetailsHidden = "true"
+}
+
 if (!Number.isInteger(totalRounds) || totalRounds <= 0) {
     totalRounds = 5
 }
+
+
 
 // Function to add a round to the array
 function addRound(showName, trackName, userGuess, actualYear, userScore) {
@@ -395,13 +436,33 @@ function addRound(showName, trackName, userGuess, actualYear, userScore) {
         rounds.push([showName, trackName, userGuess, actualYear, userScore]);
     }
     else {
-        rounds.push([showName, trackName, userGuess, userScore]);
+        rounds.push([showName, userGuess, userScore]);
 
     }
+
 }
 
 
 document.addEventListener("DOMContentLoaded", () => {
+
+    var showDetailsCheckbox = document.getElementById('showDetailsCheckbox')
+
+    showDetailsCheckbox.addEventListener('change', function () {
+        // Check if the checkbox is checked
+        if (showDetailsCheckbox.checked) {
+            showShowDetails()
+
+        } else {
+            hideShowDetails()
+        }
+    })
+
+
+    if (showDetailsHidden == "false") {
+        showDetailsCheckbox.checked = true
+    }
+
+
     let loadedShow;
     var confirmButton = null
 
@@ -563,16 +624,11 @@ document.addEventListener("DOMContentLoaded", () => {
             loadedShow = show;
             displayShowInfo(show);
 
-            // Load a random track
-            const track = loadRandomTrack(show);
-            console.log(track);
-            displayTrackInfo(track, show);
-
-            return { show, track };
+            return { show };
         })
         .then(data => {
             // Step 4: Load and display the iframe
-            loadAndDisplayIframe(data.show, data.track);
+            loadAndDisplayIframe(data.show);
         })
         .catch(handleError);
 
@@ -635,11 +691,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             userScore = calculateScore(selectedYear.textContent, loadedShow.showDate);
 
-
-
         }
         else {
-
 
             searchInput.disabled = true;
             userScore = calculateScore(showData[selectedShow], loadedShow.showDate);
@@ -669,16 +722,16 @@ document.addEventListener("DOMContentLoaded", () => {
         // Scroll page down to next round button (bottom of the page)
         nextRoundButton.scrollIntoView({ behavior: 'smooth' });
 
+        showResultsLink = document.querySelector("#showDisplay > a")
+
 
         if (guessFormat == "YS") {
             // Add round details to array for later results display
-            addRound(showElement.innerHTML, trackElement.innerHTML, selectedYear.textContent, loadedShow.showYear, (userScore + "/5000"));
+            addRound(showResultsLink.outerHTML, 0, selectedYear.textContent, loadedShow.showYear, (userScore + "/5000"));
         }
         else {
-            addRound(showElement.innerHTML, trackElement.innerHTML, selectedShow, 0, (userScore + "/5000"))
+            addRound(showResultsLink.outerHTML, 0, selectedShow, 0, (userScore + "/5000"))
         }
-        // Add round details to array for later results display
-
 
 
     });
@@ -714,7 +767,6 @@ document.addEventListener("DOMContentLoaded", () => {
             if (currentRound == (totalRounds - 1)) {
                 nextRoundButton.textContent = "Final round";
             }
-
             else if (currentRound == (totalRounds)) {
                 nextRoundButton.textContent = "Finish game";
             }
@@ -747,6 +799,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 confirmButton.disabled = true;
                 searchInput.value = ""
 
+                searchContainer.style.height = "400px"
+                selectedShowText.style.display = "block"
+
             }
 
 
@@ -762,10 +817,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     console.log('Imported Show:', show);
                     loadedShow = show;
                     displayShowInfo(show);
-                    const track = loadRandomTrack(show);
-                    console.log(track);
-                    displayTrackInfo(track, show);
-                    loadAndDisplayIframe(show, track);
+
+                    loadAndDisplayIframe(show);
 
                     // Reset user input and scores
                     userScoreElement.textContent = "";
