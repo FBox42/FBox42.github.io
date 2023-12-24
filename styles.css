@@ -68,6 +68,7 @@ table {
 
 path.handle {
     transform: Scale3d(1.4, 1.4, 1);
+    outline: none;
 }
 
 #homeButton {
@@ -443,10 +444,10 @@ button#openButton {
     transform: translate(-50%, -50%);
     width: 70%;
     /* Increase the width to make the pop-up bigger */
-    height: 81%;
+    height: fit-content;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 2px 3px 1000px #999;
+    box-shadow: 33px 33px 1020px 20px #2f2f2f;
 }
 
 .checkbox-container {
@@ -456,6 +457,8 @@ button#openButton {
     margin-right: 40px;
 
 }
+
+
 
 .popup-content {
     padding: 10px;

@@ -85,6 +85,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     singleYearContainer.addEventListener("click", function () {
         singleYearRadio.checked = true;
+        slider.value = 5 
+        roundText.innerHTML = "5 Rounds";
         
 
     });
@@ -94,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     singleShowContainer.addEventListener("click", function () {
         singleShowRadio.checked = true;
         slider.value = 3 
-
+        roundText.innerHTML = "3 Rounds";
     });
 
     

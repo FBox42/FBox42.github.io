@@ -308,40 +308,34 @@ function displayResultPage() {
     else {
 
         tableHTML = `
-    <table>
-    <tr>
-        <th id="trackColumn">Track</th>
-        <th>Your guess</th>
-        <th>Score</th>
-    </tr>
-    `;
+        <table>
+        <tr>
+            <th id="trackColumn">Show/Track</th>
+            <th>Your guess</th>
+            <th>Score</th>
+        </tr>
+        `;
 
         for (let i = 0; i < rounds.length; i++) {
-            const [showName, trackName, userGuess, actualYear, userScore] = rounds[i];
+            const [showName, trackName, userGuess, userScore] = rounds[i];
             tableHTML += `
-            <tr>
-            <td id="trackColumn">${showName}<br>${trackName}</td>
-            <td>${userGuess}</td>
-            <td>${userScore}</td>
-            </tr>
-            `;
+    <tr>
+      <td id="trackColumn">${showName}<br>${trackName}</td>
+      <td>${userGuess}</td>
+      <td>${userScore}</td>
+    </tr>
+  `;
         }
 
         tableHTML += `<tr> 
-            <td id="trackColumn">Total Score:</td>
-            <td></td><td>
-            <td>${totalUserScore}/${maxPoints}</tr>`;
+    <td id="trackColumn">Total Score:</td>
+    <td></td></td>
+    <td>${totalUserScore}/${maxPoints}</tr>`;
         tableHTML += '</table>';
 
 
 
-
-
-
     }
-
-
-
 
 
     var parentElement = document.getElementById('tableContainer');
@@ -395,9 +389,10 @@ function addRound(showName, trackName, userGuess, actualYear, userScore) {
         rounds.push([showName, trackName, userGuess, actualYear, userScore]);
     }
     else {
-        rounds.push([showName, trackName, userGuess, userScore]);
+        rounds.push([showName,trackName, userGuess, userScore]);
 
     }
+
 }
 
 
@@ -475,7 +470,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
             // Update the transform attribute
-            svgElement.setAttribute('transform', 'translate(0,14)');
+            svgElement.setAttribute('transform', 'translate(0.575,14)');
+
+            console.log(screenWidth)
 
             sliderHandle = document.querySelector("#slider > svg > g > g.slider > g > path")
 
@@ -669,13 +666,19 @@ document.addEventListener("DOMContentLoaded", () => {
         // Scroll page down to next round button (bottom of the page)
         nextRoundButton.scrollIntoView({ behavior: 'smooth' });
 
+        showResultsLink = document.querySelector("#showDisplay > a")
+
+
 
         if (guessFormat == "YS") {
             // Add round details to array for later results display
             addRound(showElement.innerHTML, trackElement.innerHTML, selectedYear.textContent, loadedShow.showYear, (userScore + "/5000"));
         }
         else {
-            addRound(showElement.innerHTML, trackElement.innerHTML, selectedShow, 0, (userScore + "/5000"))
+            //addRound(showElement.innerHTML, trackElement.innerHTML, selectedShow, 0, (userScore + "/5000"))
+
+            addRound(showResultsLink.outerHTML, trackElement.innerHTML, selectedShow, 0, (userScore + "/5000"))
+
         }
         // Add round details to array for later results display
 
@@ -746,6 +749,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 selectedShow = null;
                 confirmButton.disabled = true;
                 searchInput.value = ""
+
+                searchContainer.style.height = "400px"
+                selectedShowText.style.display = "block"
 
             }
 

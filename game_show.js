@@ -536,7 +536,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
             // Update the transform attribute
-            svgElement.setAttribute('transform', 'translate(0,14)');
+            svgElement.setAttribute('transform', 'translate(0.575,14)');
 
             sliderHandle = document.querySelector("#slider > svg > g > g.slider > g > path")
 
