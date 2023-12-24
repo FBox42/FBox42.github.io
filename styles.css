@@ -355,16 +355,15 @@ iframe#random-iframe {
 
 .playButton {
     padding: 10px 20px;
-    height: 175px;
-    width: 300px;
-    font-size: 16px;
+    height: 145px;
+    width: 250px;
     background-color: #22378a;
     color: #ffffff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Storybook', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 100px;
 }
 
@@ -395,8 +394,9 @@ iframe#random-iframe {
 }
 
 table {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
+    font-size: larger;
 
 }
 
@@ -404,6 +404,10 @@ th,
 td {
     padding: 8px;
     text-align: left;
+}
+
+#tableContainer{
+    padding-block: 80px;
 }
 
 .dropdown-item:hover {
@@ -661,6 +665,15 @@ button#openButton {
 
 #selectedShowText {
     font-size: larger;
+    padding-top: 50px;
+}
+
+
+
+#playButtonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 18%;
 }
 
 .checkboxContainer input[type="checkbox"] {

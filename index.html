@@ -28,61 +28,61 @@
 <body>
     <div>
         <div>
-            <p class="homepageIntro">Guess the Grateful Year is a game consisting of 5 rounds where you guess the year
-                of a live
-                Grateful Dead performance. Each round is scored out of 5000, with more points being deducted the further
-                your guess is from the correct year.
+            <p class="homepageIntro">Test your Grateful Dead knowledge by guessing the year, or exact show, of a live recording. Each round is scored out of 5000, with more points being deducted the further
+                your guess is from the correct date.
                 The game currently has nearly 500 different shows and over 8000 different tracks to guess from.
+                
                 <br><br><br>
                 Not affliated with the Grateful Dead or the
                 <a href="https://guesstheyear.net/">Guess The Year podcast</a>.
             </p>
 
         </div>
-        <!--- <button id="openButton" class="playButton" onclick='window.location.href = "game.html";''>Play Game</button> -->
-        <button id="openSingleTrackButton" class="playButton">Play Game</button>
-        <div id="overlay" class="overlay"></div> <!-- Add overlay element -->
+        <div id="playButtonContainer">
+            <button id="openSingleTrackButton" class="playButton">Guess from single tracks</button>
+            <div id="overlay" class="overlay"></div> <!-- Add overlay element -->
 
-        <div id="popup" class="popup">
-            <div class="popup-content">
-                <span id="closeButton" class="close-button">&times;</span>
-                <p class="popupTitle">1.) Select the number of rounds:</p>
-                <br>
-                <input type="range" min="1" max="15" value="5" class="indexTrackSlider" id="sliderRange">
-                <p id="trackRoundText">5 Rounds</p>
-                <br>
-                <p class="popupTitle">2.) Select guess format:</p>
-                <br>
-                <div class="guessFormatContainer">
-                    <div id="singleYearContainer" class="image-item">
-                        <img src="year slider.png" class="guessSelectImg" alt="Image 1">
-                        <input type="radio" id="singleYearRadio" class="radioButton" name="imageSelection"
-                            value="image1" checked>
-                        <p class="singleYearCaption">Guess year</p>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="closeButton" class="close-button">&times;</span>
+                    <p class="popupTitle">1.) Select the number of rounds:</p>
+                    <br>
+                    <input type="range" min="1" max="15" value="5" class="indexTrackSlider" id="sliderRange">
+                    <p id="trackRoundText">5 Rounds</p>
+                    <br>
+                    <p class="popupTitle">2.) Select guess format:</p>
+                    <br>
+                    <div class="guessFormatContainer">
+                        <div id="singleYearContainer" class="image-item">
+                            <img src="year slider.png" class="guessSelectImg" alt="Image 1">
+                            <input type="radio" id="singleYearRadio" class="radioButton" name="imageSelection"
+                                value="image1" checked>
+                            <p class="singleYearCaption">Guess year</p>
+                        </div>
+                        <div id="singleShowContainer" class="image-item">
+                            <img src="show select.png" class="guessSelectImg" alt="Image 2">
+                            <input type="radio" id="singleShowRadio" class="radioButton" name="imageSelection"
+                                value="image2">
+                            <p class="singleShowCaption">Guess exact show</p>
+                        </div>
                     </div>
-                    <div id="singleShowContainer" class="image-item">
-                        <img src="show select.png" class="guessSelectImg" alt="Image 2">
-                        <input type="radio" id="singleShowRadio" class="radioButton" name="imageSelection"
-                            value="image2">
-                        <p class="singleShowCaption">Guess exact show</p>
-                    </div>
-                </div>
 
-                <div class="visibilityDetailsContainer">
-                    <p class="popupTitle">3.) Select track visibility:</p>
-                    <label class="checkboxContainer">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                        <br><br>
-                        Hide show information (track names, duration and order)
-                    </label>
+                    <div class="visibilityDetailsContainer">
+                        <p class="popupTitle">3.) Select track visibility:</p>
+                        <label class="checkboxContainer">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                            <br><br>
+                            Hide show information (track names, duration and order)
+                        </label>
+                    </div>
+                    <br><br>
+                    <button id="homePlayButton" class="homePlayButton">Start Game</button>
                 </div>
-                <br><br>
-                <button id="homePlayButton" class="homePlayButton">Start Game</button>
             </div>
-        </div>
 
-        <button id="openShowButton" class="playButton">Play Show Game</button>
+            <button id="openShowButton" class="playButton">Guess from full shows</button>
+        </div>
 
     </div>
 
